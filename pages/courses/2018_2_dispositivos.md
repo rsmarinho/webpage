@@ -49,7 +49,7 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 * Unidade 01
   [[Quiz](/dispositivos/quiz)]
   * Aula 02
-  <!-- [[Notas](/dispositivos/aula_02)] -->
+  [[Notas](/dispositivos/aula_02)]
   <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Materiais Condutores, Isolates e Semicondutores

@@ -3,6 +3,7 @@ from flask import Flask
 from flask import render_template
 from flask import url_for
 from flask import Response
+# from flask import wsgi_app
 from flaskext.markdown import Markdown
 
 import os
@@ -16,7 +17,18 @@ FLATPAGES_EXTENSION = ['.md']
 FLATPAGES_MARKDOWN_EXTENSIONS = ['codehilite']
 FREEZER_DESTINATION = 'rsmarinho.github.io'
 
+class ReverseProxied(object):
+    def __init__(self, app):
+        self.app = app
+
+    def __call__(self, environ, start_response):
+        scheme = environ.get('HTTP_X_FORWARDED_PROTO')
+        if scheme:
+            environ['wsgi.url_scheme'] = scheme
+        return self.app(environ, start_response)
+
 app = Flask(__name__)
+app.wsgi_app = ReverseProxied(app.wsgi_app)
 app.config.from_object(__name__)
 
 # app.config['FREEZER_DESTINATION'] = 'rsmarinho.github.io'
@@ -143,6 +155,19 @@ def dispositivos():
 	ano = '2018'
 	sem = '2'
 	content = os.path.join('courses/' + ano + '_' + sem + '_dispositivos')
+	page = pages.get_or_404(content)
+	# page = 'courses/' + filename
+	return render_template('course_page.html',
+		title=title,
+		subtitle=subtitle,
+		icons=icons,
+		page=page)
+
+@app.route('/projeto/')
+def projeto():
+	ano = '2018'
+	sem = '2'
+	content = os.path.join('courses/' + ano + '_' + sem + '_projeto')
 	page = pages.get_or_404(content)
 	# page = 'courses/' + filename
 	return render_template('course_page.html',
