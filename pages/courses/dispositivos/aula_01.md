@@ -52,7 +52,7 @@ $$
 v_L(R_L=1k) = 1.5\frac{1k}{1k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{1k}=1.498\,mA \\
 v_L(R_L=10k) = 1.5\frac{10k}{10k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{10k}=0.1498\,mA
 $$
-No caso (b) temos que:
+No caso (b) temos que:s
 $$
 v_L(R_L=10^{-3}) = 1.5\frac{10^{-3}}{10^{-3}+1}=1.498\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=1.498\,A \\
 v_L(R_L=10^{-2}) = 1.5\frac{10^{-2}}{10^{-2}+1}=14.85\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=14.98\,A

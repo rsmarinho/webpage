@@ -19,6 +19,8 @@ FREEZER_DESTINATION = 'rsmarinho.github.io'
 app = Flask(__name__)
 app.config.from_object(__name__)
 
+# app.config['FREEZER_DESTINATION'] = 'rsmarinho.github.io'
+
 md = Markdown(app, extensions=['mdx_math',
 							   'mdx_truly_sane_lists',
 							   'extra'],
@@ -136,6 +138,19 @@ def course_year(tpath, ano, sem):
 	else:
 		return render_template('error_pages/404.html')
 
+@app.route('/dispositivos/')
+def dispositivos():
+	ano = '2018'
+	sem = '2'
+	content = os.path.join('courses/' + ano + '_' + sem + '_dispositivos')
+	page = pages.get_or_404(content)
+	# page = 'courses/' + filename
+	return render_template('course_page.html',
+		title=title,
+		subtitle=subtitle,
+		icons=icons,
+		page=page)
+
 @freezer.register_generator
 def course_class_gen():
 	path = os.path.join(app.root_path, 'pages/courses')
@@ -149,6 +164,8 @@ def course_class_gen():
 
 # run the application
 if __name__ == '__main__':
+	# from warnings import simplefilter as filter_warnings
+	# filter_warnings('ignore', 'flask_frozen.MissingURLGeneratorWarning')
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
 		print("Building website...")
 		app.debug = False
