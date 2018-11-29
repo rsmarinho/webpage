@@ -35,7 +35,7 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 
 ### *Material de apoio*:
 ---
-* Unidae 00
+* Unidade 00
   * Aula 01
   [[Notas](/dispositivos/aula_01)]
   <!-- [[Exercicios](/dispositivos/exercicios_01)] -->
@@ -49,8 +49,8 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 * Unidade 01
   [[Quiz](/dispositivos/quiz)]
   * Aula 02
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Materiais Condutores, Isolates e Semicondutores
     2. Propriedade do silício intrínseco
@@ -58,36 +58,36 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
     4. Deriva e difusão de portadores de carga
 
   * Aula 03 - Introdução 1a física da junção PN (1/2)
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Construção da Junção PN
     2. Junção PN em equilíbrio termodinâmico
     3. Junção PN sob polarização inversa
 
   * Aula 04 - Introdução à Física da Junção PN (2/2)
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Jução PN sob polarização direta
 
   * Aula 05 - Modelos equivalentes para análise de circuitos com diodo
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. 3 Modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
     2. Modelo para análise de pequenos sinais
 
   * Aula 06 - Circuitos e Aplicações com diodos (1/2)
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Regiões de funcionamento e aplicações
     2. Aplicações com diodos: Limitadores e ceifadores, Retificadores.
 
   * Aula 07 - Circuitos e Aplicações com diodos (2/2)
-  [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
+  <!-- [[Notas](/dispositivos/aula_02)] -->
+  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Reguladores de tensão
     2. Outras aplicações de interesse

@@ -13,40 +13,56 @@ date: 2018.2
 Princípios de Condução de Corrente Elétrica em Sólidos
 ======================================================
 
-## Plano de Aula:
-* Condutores, Isolantes e Semicondutores.
-* Propriedades do Silício Intrínseco.
-* Dopagem e seus efeitos (ou sobre como modificar algumas das propriedades do semicondutor).
-* Deriva e difusão de portadores.
+# Plano de Aula:
+* Contextualização da disciplina
+* Revisão sobre fontes reais de sinais
+* Fontes de corrente controlada
+* Cálculo de correntes e tensões com objetivos de caracterização
 
 ---
 
-# Portadoras de carga em semicondutores
+## Contextualização
 
-Sabe-se que a corrente elétrica é definida como o movimento direcionado de elétrons ao longo de uma superfície. Apesar desse conceito parecer simples, existe muitas considerações que precisam ser levadas em consideração para compreender o mecanismo que descreve a corrente elétrica em dispositivos semicondutores. Primeiramente definimos um semicondutor como um material que pode se comportar como condutor ou isolante. No mundo real, a maioria dos semicondutores são formados por cristais de átomos do grupo IV (coluna 14 na [tabela periódica](https://www.ptable.com/?lang=pt)).
+Na disiciplina de sinais e sistemas vocês aprenderam (ou aprenderão) a estrutura de um sinal analógico e sobre como representá-lo em frequência. Aprenderam sobre amostragem e digitalização de um sinal analógico e sobre como reconstruí-lo de tal forma que a informação contida nesse sinal possa ser reconstituída.
 
-Nesse caso, em que situação o semicondutor funcionará como um condutor ou um isolante? Ou de outra maneira, como transformar um semicondutor em um condutor ou em um isolante? Antes de responder essas perguntas devemos primeiramente compreender a passagem o movimento que transforma um elétron da camada de valência em um elétron livre na superfície cristalina formada, por exemplo, por silício.
+O que não deve ter ficado claro, porém, é que a transformação de um sinal analógico para um sinal digital é *meramente* um artifício matemático que permite a operação desses sinais em outro domínio, ou em abstrações de processadores lógicos. O que deve ficar claro nessa situação é que o sinal *elétrico* que trafega pelos componentes ainda é analógico! Ou seja, o processamento elétrico de qualquer sinal é feito analogicamente.
 
-De acordo com o modelo do átomo de Bohr, os elétrons orbitam o núcleo de um átomo que é formado por prótons e neutrons. Independente das características desse átomo (peso atômico, número de prótons e neutrons, etc.) os elétrons que orbitam esse núcelo podem passar de uma camada para outra e se *desprender* da orbita desse átomo. Para que isso aconteça é necessário que esse elétron receba uma quantidade específica de energia; essa quantidade de energia \(E_g\) assume um valor diferente para cada elemento da tabela periódica.
+Nesse contexto, podemos afirmar que a engenharia é feita de abstrações e compartimentalização de problemas. O que na (\(\mu\)-)eletrônica pode ser traduzido com a afirmação de que eventualmente você encontrará problemas em que será necessário estimar um dispositivo "forçando" uma corrente ou uma tensão em determinado ponto de um circuito.
 
-## Confinamento de elétrons nas camadas do átomo
+<img class="center" src=/static/figures/ alt="drawing">
 
-O movimento de partículas do átomo (incluindo os elétrons) é modelado na física quantica como *ondas de matéria*. De maneira simplificada, as ondas de matéria funcionam como ondas estacionárias. Suponha que uma corda conectada em ambas as extremidades à superfícies fixas seja excitada por harmônicos simples em frequências que variam linearmente, para as cordas fixadas são produzidos padrões de ondas estacionárias somente em certas frequências de excitação (modos).
+O circuito da figura acima, por exemplo, pode ser considerado uma abstração básica que demonstra características de circuitos encontrados em eletrônica.
 
-<img class="center" src=/static/figures/standing_waves.jpg alt="drawing">
+Em uma estrutura mais completa podemos, por exemplo, visualizar o circuito eletrônico como uma fonte equivalente de Thèvenin conectada na entrada do próximo circuito.
 
-Em outras palavras, a onda estacionária gerada pela excitação da corda está confinada devido ao tamanho limitado estabelecido pelas extremidades da corda que estão conectadas às superficies fixas. Além disso, percebemos que as ondas estacionárias geradas pela excitação dessa corda, não assumem qualquer frequência. Dizemos então que a frequência de vibração da corda é quantizada e segue a equação \(L=n\lambda/2\), onde \(L\) é o comprimento da corda, \(n\) é um número inteiro que define a quantidade de modos e \(\lambda\) é a larguda da onda estacionária.
+## Fontes ideais vs. Fontes reais
+Devemos supor que no mundo real fontes ideais não existem, pois caso existissem seria gerado um paradoxo (ao conectar seus terminais positivo e negativo a corrente que passa no curto-circuito deveria ser infinita). Ora se fontes ideais não existem, o que fazer? A representação de uma fonte real com uma resistência de fonte responde a esse questionamento e estabelece dois modelos de fontes que são equivalentes: O modelo de fonte equivalente de Norton e o modelo de fonte equivalente de Thèvenin.
 
-Analogamente ao caso da corda fixa, e como o movimento dos elétrons é modelado por ondas de matéria, supõe-se que os elétrons estão presos (confinados) nas órbitas (modos) do átomo. Um elétron pode saltar de uma órbita a outra de acordo com a quantidade de energia que ele *recebe* (via calor, luz, etc.). Como nesse caso, as órbitas são quantizadas, a quantidade de energia necessária para que um elétron passe de um estado a outro também é quantizado. De uma outra forma, podemos compreender o estado de oscilação do átomo como bandas de energia. Um elétron têm energia o suficiente para estar em determinada banda de energia e pode transpor a barreira (*bandgap*) para uma outra banda de acordo com a energia externa que ele recebe. Esse valor de energia, além de variar de acordo com a banda de energia do elétron, também varia de acordo com o elemento da tabela períódica. Por exemplo, a energia necessária para que um elétron que se encontre na camada de valência se *soltar* do átomo (e virar um elétron livre) no do Silício é de 1.12eV e o do Germânio de 0.66eV.
+<img class="center" src=/static/figures/ alt="equivalente_norton_thevenin">
 
-Finalmente, denomina-se elétron-volt a energia necessária para que um elétron vença a barreira de potencial de 1V, lembrando que um elétron tem carga de \(1.6\times10^{-19}C\).
+Agora, com os equivalente de fonte, como estabeler se a ligação forçada em determinado ponto do circuito é de corrente e de tensão? Em outras palavras, ao conectar uma fonte *real* a determinado circuito, como saber se essa fonte real funciona como uma fonte de tensão ou uma fonte de corrente? Bem, essa resposta depende do referencial. Suponha por exemplo o circuito representado na figura abaixo:
+
+Devemos calcular a corrente injetada na resistência de carga $R_L$ e a tensão medida em seus terminais. Para esses casos suponha que a resistência $R_L$ possa assumir quatro valores diferentes: No caso (a) quando \(R_L>>R_S\) temos \(R_L=1k\Omega\), \(R_L=10k\Omega\). No caso (b) quando \(R_L<<R_S\) temos \(R_L=1m\Omega\), \(R_L=10\mu\Omega\)
+
+<img class="center" src=/static/figures/ alt="exemplo_fontes_tensao_corrente">
 
 ---
+No caso (a) temos que:
+$$
+v_L(R_L=1k) = 1.5\frac{1k}{1k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{1k}=1.498\,mA \\
+v_L(R_L=10k) = 1.5\frac{10k}{10k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{10k}=0.1498\,mA
+$$
+No caso (b) temos que:
+$$
+v_L(R_L=10^{-3}) = 1.5\frac{10^{-3}}{10^{-3}+1}=1.498\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=1.498\,A \\
+v_L(R_L=10^{-2}) = 1.5\frac{10^{-2}}{10^{-2}+1}=14.85\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=14.98\,A
+$$
 
-Para entender um pouco melhor a diferença de condutores isolantes e semicondutores é preciso entender a estrutura atômica. Tomemos nesse caso o átomo de hidrogênio isolado, que é o mais simples deles, Bohr estabeleceu que os níveis de energia que os eletrons podem ocupar são níveis discretos e que seguem a equação
+---
+Repare que na situação (a), quando \(R_L>>R_S\), a tensão na carga permanece (quasi-) estável, enquanto a corrente modifica muito. No caso (b), quando \(R_L<<R_S\) acontece a cituação contrária, a corrente permanece (quasi-) estável e a tensão modifica muito.
 
-$$ E_n=-\frac{mq^4}{8\varepsilon_0^2h^2}\frac{1}{n^2}=\frac{-13,6eV}{n^2}$$
+Diz-se então que na situação (a) a fonte é de tensão pois o circuito está sendo alimentado por uma tensão fixa. Enquanto na situação (b) é dito que a fonte é de corrente pois o circuito está sendo alimentado por uma corrente fixa.
 
-onde n é o número quantico e 1 eV é a quantidade de energia necessária para que um elétron consiga transpor uma barreira de potêncial igual a um volt.
-
-A equação de Bohr estabelece os níveis de energia correspondentes a cada orbita de um átomo. Significando que: Definido por *n*, o número quantico principal estabelece a energia do nível em que se encontra o elétron obedecendo a relação de Bohr da equação anterior.
+## Fonte de Corrente Controlada
+Em alguns casos, existem circuitos que são representados por fontes de corrente controladas. Usualmente, a relação entre o controle de corrente é dado por um fator de multiplicação (\(k\)); entretanto, quando essas fontes são utilizadas para modelagem de dispositivos
+e possível que essa relação possa ser representada por uma função não-linear.
