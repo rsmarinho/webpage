@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.path == "cv" %}
+    {% include "cv.html" %}
+  {% elif page.path == "production" %}
+    {% include "production.html" %}
+  {% elif page.path == "courses" %}
+    {% include "courses.html" %}
+  {% endif %}
+{% endblock %}

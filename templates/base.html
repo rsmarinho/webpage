@@ -1,0 +1,76 @@
+ <!DOCTYPE HTML>
+<html>
+	<head>
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Rafael Marinho</title>
+    {% endif %}
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href=/static/css/main.css />
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+			  config: ["MMLorHTML.js"],
+			  jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+			  extensions: ["MathMenu.js", "MathZoom.js"]
+			});
+		</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+	</head>
+	<body>
+
+  <!-- Header -->
+  	<header id="header">
+  		<span class="avatar"><a href="{{ url_for( 'index' ) }}"><img src=/static/images/avatar.jpg alt="" /></a></span>
+  		<h1><strong>{{ title }}</strong></h1>
+      <h2>{{ subtitle }}</h2>
+  		<ul class="icons">
+        {% for icon in icons %}
+  			<li><a href="{{ icon.href }}" class="icon style2 {{ icon.icon }}"><span class="label">{{ icon.label }}</span></a></li>
+        {% endfor %}
+  		</ul>
+  	</header>
+
+  <!-- Wrapper -->
+    <div id="wrapper">
+    <!-- Thumbnails -->
+      <section class="thumbnails">
+        <div>
+          <a href= {{ url_for('page', path='cv') }}>
+            <!-- <img src="/static/images/thumbs/02.jpg" alt="" /> -->
+            <h3>CV</h3>
+          </a>
+        </div>
+        <div>
+          <a href= {{ url_for('page', path='production') }}>
+            <!-- < img src="/static/images/thumbs/02.jpg" alt="" /> -->
+            <h3>Produção</h3>
+          </a>
+        </div>
+        <div>
+          <a href= {{ url_for('page', path='courses') }}>
+            <!-- <img src="/static/images/thumbs/02.jpg" alt="" /> -->
+            <h3>Disciplinas</h3>
+          </a>
+        </div>
+        </section>
+        <!-- here goes the pages -->
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Footer -->
+    	<footer id="footer">
+    		<p>&copy;<a href="http://rsmarinho.com">Rafael Marinho</a></p>
+    		<p>João Pessoa - Paraíba - Brasil</p>
+    	</footer>
+
+		<!-- Scripts -->
+			<!-- <script src="/static/js/jquery.min.js"></script>
+			<script src="/static/js/jquery.poptrox.min.js"></script>
+			<script src="/static/js/skel.min.js"></script>
+			<script src="/static/js/main.js"></script> -->
+
+	</body>
+</html>
