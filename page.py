@@ -3,7 +3,6 @@ from flask import Flask
 from flask import render_template
 from flask import url_for
 from flask import Response
-# from flask import wsgi_app
 from flaskext.markdown import Markdown
 
 import os
@@ -31,8 +30,6 @@ app = Flask(__name__)
 app.wsgi_app = ReverseProxied(app.wsgi_app)
 app.config.from_object(__name__)
 
-# app.config['FREEZER_DESTINATION'] = 'rsmarinho.github.io'
-
 md = Markdown(app, extensions=['mdx_math',
 							   'mdx_truly_sane_lists',
 							   'extra'],
@@ -47,7 +44,7 @@ freezer = Freezer(app)
 
 #Page definitions
 title = "Rafael Marinho"
-subtitle = "Currently PhD at XLIM and Professor at UFPB University."
+subtitle = md("Currently PhD at <a href=http://xlim.fr>XLIM</a> and Professor at <a href=http://ufpb.br>UFPB</a>.")
 icons = [
     {
         'href': 'http://twitter.com/rsmarinhoo',
@@ -106,7 +103,7 @@ classes = [
 @app.route('/')
 # @app.route('/index/')
 def index():
-    return render_template('base.html',
+	return render_template('base.html',
                 title=title,
                 subtitle=subtitle,
                 icons=icons)
@@ -150,6 +147,16 @@ def course_year(tpath, ano, sem):
 	else:
 		return render_template('error_pages/404.html')
 
+@freezer.register_generator
+def course_class_gen():
+	path = os.path.join(app.root_path, 'pages/courses')
+	courses = next(os.walk(path))[1]
+	for course in courses:
+		c = next(os.walk(path + '/' + course))[2]
+		for classy in c:
+			classy = classy.replace('.md','')
+			yield '/' + course + '/' + classy + '/'
+
 @app.route('/dispositivos/')
 def dispositivos():
 	ano = '2018'
@@ -175,17 +182,6 @@ def projeto():
 		subtitle=subtitle,
 		icons=icons,
 		page=page)
-
-@freezer.register_generator
-def course_class_gen():
-	path = os.path.join(app.root_path, 'pages/courses')
-	courses = next(os.walk(path))[1]
-	for course in courses:
-		c = next(os.walk(path + '/' + course))[2]
-		for classy in c:
-			classy = classy.replace('.md','')
-			yield '/' + course + '/' + classy + '/'
-
 
 # run the application
 if __name__ == '__main__':
