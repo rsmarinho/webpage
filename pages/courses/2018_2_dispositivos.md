@@ -37,7 +37,7 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 ---
 * Unidade 00
   * Aula 01
-  [[Notas](/dispositivos/aula_01)]
+  [[Nota de aula](/dispositivos/aula_01)]
   <!-- [[Exercicios](/dispositivos/exercicios_01)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Contextualização da disciplina
@@ -51,7 +51,7 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
   [[Exercicios](/dispositivos/exercicios)]
 
   * Aula 02 - Princípios de Condução de Corrente Elétrica em Sólidos
-  [[Notas](/dispositivos/aula_02)]
+  [[Nota de aula](/dispositivos/aula_02)]
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Materiais Condutores, Isolates e Semicondutores
     2. Propriedade do silício intrínseco
@@ -73,7 +73,7 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
   * Aula 05 - Modelos equivalentes para análise de circuitos com diodo
   <!-- [[Notas](/dispositivos/aula_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. 3 Modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
+    1. Três modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
     2. Modelo para análise de pequenos sinais
 
   * Aula 06 - Circuitos e Aplicações com diodos (1/2)

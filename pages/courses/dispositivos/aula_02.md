@@ -83,3 +83,44 @@ As lacunas se movimentam portanto mais lentamente do que os elétrons, pois seu 
 
 ---
 ### Energia de bandgap:
+Quando observa-se experimentalmente a quantidade de elétrons nlivres na superfície de um material semicondutor, percebemos que essa quantidade aumenta com a temperatura. Esse resultado é esperado pois sabe-se que os elétrons ganham energia térmica que faz com que ele transponha a ligação iônica que existe em ele e o núcleo atômico. Em geral a representação gráfica da densidade de elétrons na superfície como função da temperatura pode ser vista como
+
+<img class="center" src=/static/figures/ alt="movimento_de_lacunas">
+
+Esse gráfico estabelece as densidades de elétron na superfície tanto para o Silício como para o Germânio. Ambos os materiais têm quatro elétrons na camada de valência. O gráfico sugere, portanto que a quantidade de elétrons na camada de valência não é suficiente para estabelecer a quantidade de elétrons livres na superfície do material. Existe, portanto alguma outra característica que faz com que a quantidade de elétrons na camada condutora seja maior ou menos para um valor de temperatura estabelecido.
+
+> Se você olhar com calma, preceberá que no silício é preciso mais energia (temperatura mais elevada) para que a densidade de elétrons livres seja a mesma do Germânio em uma temperatura mais baixa. Esta situação sugere que, no silício, o elétron está mais fortemente acoplado à seu núcleo do que no Germânio.
+
+Esta característica é chamada de energia de bandgap, que determina a quantidade de energia necessária para que um elétron salte da camada de vaência para a camada de condução. Alguns valores de exemplos de energia de bandgap para diferentes materiais são:
+
+* Silício: \(E_g=1.12\,eV\)
+* Germânio: \(E_g=0.67\,eV\)
+* Diamante: \(E_g=2.5\,eV\)
+
+A essa altura, sabemos que a quantidade de elétrons livres aumenta co mo aumento da temperatura, mas como calcular essa quantidade de elétrons livres na superfície cristalina?
+
+---
+*Exemplo:*
+Calcule a quantidade de elétrons livres na superfície do *Silício intrinseco* à uma temperatura de \(T=300\,K\).
+
+*Resposta:*
+A equação \(n_i=5.2\times10^{15}\exp{\frac{-E_g}{2kT}}\,cm^{-3}\) determina a quantidade de elétrons livres na superfície cristalina para o Silício intrínseco. Onde:
+
+* \(T\) -> Temperatura absoluta (dada em Kelvin): \(T=300\,K\)
+* \(E_g\) -> Energia de bandgap do material
+* \(k\) -> Constante de Boltzmann: \(k=1.38\times10^{23}\,J/K\)
+
+Vemos então que à temperatura ambiente o Silício têm densidade de elétrons aproximada de \(n_i\approx10^{10}\,cm^{-3}\)
+
+---
+
+>Quando o processo de geração acontece em uma superfície cristalina (o elétron ganha energia suficiente para entrar em banda de condução), são gerados dois portadores de carga: Um elétron livre e uma lacuna. Portanto, em um semicondutor intrinseco em temperatura ambiente, supomos \(n(=n_i)\) que é igual a densidade de lacunas (\(p\)). E de acordo com a equação da lei das massas, têm-se que
+
+>$$
+np=n_i^2
+$$
+
+Lembre-se que em um paralelepípedo de \(1\,cm^{-3}\) a concentração de átomos de Silício é de \(5\times10^{22}\,átomos\cdot cm^{3}\). Calculamos uma densidade de \(n_i\approx10^{10}\,cm^{-3}\) em temperatura ambiente, o que indica que existe uma proporção de \(1:5\times10^{12}\) elétrons livres por átomos de Silício. Logo, concluímos que na melhor das hipóteses o silício é um mau condutor. Essa conclusão nos leva a pergunta de como utilizá-lo como condutor, se sua concentração de portadores de carga é tão reduzida assim? A resposta à essa pergunta é: *devemos modificar a densidade de portadores de corrente*.
+
+## Conceito de Dopagem
+O procedimento utilizado na industria para modificar a resitsência de portadores de carga na superfície do Silício interesse é a de dopagem. Esse procedimento consiste em inserir materiais diferentes (impuresas) do Silício de forma a alterar a quantidade de elétrons em sua estrutura cristalina. Usualmente no Silício, dois materiais são mais utilizados para modificar a quantidade de elétrons na trelissa do Silício cristalina, o Fósforo (P), que contém cinco elétrons em sua camada de mais externa, e o Boro (B), com três elétrons em sua camada mais externa.
