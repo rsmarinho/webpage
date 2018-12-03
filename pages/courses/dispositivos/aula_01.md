@@ -10,7 +10,7 @@ date: 2018.2
 
 ---
 
-Princípios de Condução de Corrente Elétrica em Sólidos
+Revisão e Contextualização
 ======================================================
 
 # Plano de Aula:
@@ -49,13 +49,15 @@ Devemos calcular a corrente injetada na resistência de carga \(R_L\) e a tensã
 ---
 No caso (a) temos que:
 $$
-v_L(R_L=1k) = 1.5\frac{1k}{1k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{1k}=1.498\,mA \\
-v_L(R_L=10k) = 1.5\frac{10k}{10k+1}=1.498\,V,\quad i_L(R_L=1k)=\frac{1.498}{10k}=0.1498\,mA
+v_L(R_L=1k) = 1.5\frac{1k}{1k+1}=1.498\,V, \\ i_L(R_L=1k)=\frac{1.498}{1k}=1.498\,mA
+$$e$$
+v_L(R_L=10k) = 1.5\frac{10k}{10k+1}=1.498\,V, \\ i_L(R_L=10k)=\frac{1.498}{10k}=0.1498\,mA
 $$
 No caso (b) temos que:
 $$
-v_L(R_L=10^{-3}) = 1.5\frac{10^{-3}}{10^{-3}+1}=1.498\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=1.498\,A \\
-v_L(R_L=10^{-2}) = 1.5\frac{10^{-2}}{10^{-2}+1}=14.85\,mV,\quad i_L(R_L=1k)=\frac{1.498\times10^{-3}}{10^{-3}}=14.98\,A
+v_L(R_L=10^{-3}) = 1.5\frac{10^{-3}}{10^{-3}+1}=1.498\,mV,\\ i_L(R_L=10^{-3})=\frac{1.498\times10^{-3}}{10^{-3}}=1.498\,A
+$$$$
+v_L(R_L=10^{-2}) = 1.5\frac{10^{-2}}{10^{-2}+1}=14.85\,mV,\\ i_L(R_L=10^{-2})=\frac{1.498\times10^{-3}}{10^{-2}}=1.48\,A
 $$
 
 ---

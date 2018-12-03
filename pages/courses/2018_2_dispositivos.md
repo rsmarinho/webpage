@@ -48,16 +48,17 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 ---
 * Unidade 01
   [[Quiz](/dispositivos/quiz)]
-  * Aula 02
+
+  * Aula 02 - Princípios de Condução de Corrente Elétrica em Sólidos
   [[Notas](/dispositivos/aula_02)]
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
+  [[Exercicios](/dispositivos/exercicios_02)]
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Materiais Condutores, Isolates e Semicondutores
     2. Propriedade do silício intrínseco
     3. Dopagem e seus efeitos
     4. Deriva e difusão de portadores de carga
 
-  * Aula 03 - Introdução 1a física da junção PN (1/2)
+  * Aula 03 - Introdução à física da junção PN (1/2)
   <!-- [[Notas](/dispositivos/aula_02)] -->
   <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
