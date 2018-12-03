@@ -9,7 +9,7 @@ Exercícios de fixação
 ## Instruções iniciais:
 * Os exercícios selecionados nessa página servem para fixação de conceitos estudados durante as aulas. Entretanto não são de maneira alguma *listas de exercícios* de preparação de prova no sentido "os exercícios dessas listas vão cair na prova".
 * Utilize essa lista de exercícios com sabedoria. Avalie cada exercício e liste quais conhecimentos são necessários para resolver cada questão.
-* Salvo nota expressa todos os exercícios listados nessa seção são exercícios do livro do Razavi.
+* Salvo nota expressa, todos os exercícios listados nessa seção são exercícios do livro do Razavi.
 
 ---
 
