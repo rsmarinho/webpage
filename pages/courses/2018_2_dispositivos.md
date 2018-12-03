@@ -48,10 +48,10 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 ---
 * Unidade 01
   [[Quiz](/dispositivos/quiz)]
+  [[Exercicios](/dispositivos/exercicios)]
 
   * Aula 02 - Princípios de Condução de Corrente Elétrica em Sólidos
   [[Notas](/dispositivos/aula_02)]
-  [[Exercicios](/dispositivos/exercicios_02)]
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Materiais Condutores, Isolates e Semicondutores
     2. Propriedade do silício intrínseco
@@ -60,7 +60,6 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 
   * Aula 03 - Introdução à física da junção PN (1/2)
   <!-- [[Notas](/dispositivos/aula_02)] -->
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Construção da Junção PN
     2. Junção PN em equilíbrio termodinâmico
@@ -68,27 +67,23 @@ Além disso, abaixo eu tento listar algum material para que sirvam de guia para 
 
   * Aula 04 - Introdução à Física da Junção PN (2/2)
   <!-- [[Notas](/dispositivos/aula_02)] -->
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Jução PN sob polarização direta
 
   * Aula 05 - Modelos equivalentes para análise de circuitos com diodo
   <!-- [[Notas](/dispositivos/aula_02)] -->
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. 3 Modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
     2. Modelo para análise de pequenos sinais
 
   * Aula 06 - Circuitos e Aplicações com diodos (1/2)
   <!-- [[Notas](/dispositivos/aula_02)] -->
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Regiões de funcionamento e aplicações
     2. Aplicações com diodos: Limitadores e ceifadores, Retificadores.
 
   * Aula 07 - Circuitos e Aplicações com diodos (2/2)
   <!-- [[Notas](/dispositivos/aula_02)] -->
-  <!-- [[Exercicios](/dispositivos/exercicios_02)] -->
   <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
     1. Reguladores de tensão
     2. Outras aplicações de interesse
