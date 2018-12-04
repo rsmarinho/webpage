@@ -18,20 +18,20 @@ A disciplina de Dispositivos Eletrônicos é composta de três unidades:
 * Unidade 02: Transistores Bipolares de Junção
 * Unidade 03: Transistores de Efeito de Campo
 
-O conteúdo de cada unidade é explicitado [aqui](link para o plano da disciplina).
+Você vai encontrar o link pra o plano completo da disciplina [aqui](link para o plano da disciplina).
 
 ### *Provas e trabalhos*:
 
 ### *Livro texto*:
-O principal livro utilizado nessa disciplina é o [Fundamentos de Microeletrônica](https://www.grupogen.com.br/fundamentos-de-microeletronica), mas outros livros podem ser considerados como material de apoio. Como por exemplo:
+O principal livro utilizado nessa disciplina é o [Fundamentos de Microeletrônica](https://www.grupogen.com.br/fundamentos-de-microeletronica), outros livros são considerados como material de apoio. Por exemplo:
 
 * [Dispositivos Eletrônicos e Teoria dos Circuitos](https://www.amazon.com.br/Dispositivos-Eletr%C3%B4nicos-Teoria-dos-Circuitos/dp/8564574217/ref=pd_sim_14_5?_encoding=UTF8&pd_rd_i=8564574217&pd_rd_r=97decd31-cc49-11e8-9fea-e722222b4194&pd_rd_w=NXVIW&pd_rd_wg=7GGcH&pf_rd_i=desktop-dp-sims&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=d515db61-e263-47cd-b9d9-b33c1db68903&pf_rd_r=1E70EA5A5BA7793ZFWVA&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=1E70EA5A5BA7793ZFWVA)
 * [Microeletrônica](https://www.amazon.com.br/Microeletr%C3%B4nica-Adel-S-Sedra/dp/8576050226?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=microeletronica+sedra&qid=1539147863&s=STRING%28br-books-storename%29&sr=1-1&ref=sr_1_1)
 * [Eletrônica](https://www.amazon.com.br/Eletr%C3%B4nica-1-Albert-Malvino/dp/8580555760/ref=pd_lpo_sbs_14_img_0/130-9291838-9191529?_encoding=UTF8&psc=1&refRID=0YRZRHXATWXFTZQXD6QR)
 
-Também é recomendado que o aluno tenha algum conhecimento de programação em python e do simulador de circuitos SPICE (ou algum outro simulador de circuitos). Isso por que em algumas situações (exercícios), o teste de resposta (quanfo você quer saber se acertou sua resposta) deverá ser feita em seu ambiente de estudo, e esses softwares podem ajudá-lo.
+Também é recomendado que o aluno tenha algum conhecimento de programação (de preferência python) e do simulador de circuitos SPICE (ou algum outro simulador de circuitos). Isso por que em algumas situações (exercícios), o teste de resposta (quanfo você quer saber se acertou sua resposta) deverá ser feita em seu ambiente de estudo, e esses softwares podem ajudá-lo.
 
-Além disso, abaixo eu tento listar algum material para que sirvam de guia para seus estudos. Não assumam esse material como única fonte de estudo da disciplina. Além disso, o material ainda está sendo preparado, portanto pode ser que não acompanhe as aulas.
+Abaixo eu tento listar algum material que pode servir de guia para seus estudos. Não faça desse material sua única fonte de estudo para disciplina. Estas são notas de aula que ainda estão sendo desenvolvidas e que portanto podem não acompanhar a sequência das aulas.
 
 ### *Material de apoio*:
 ---
