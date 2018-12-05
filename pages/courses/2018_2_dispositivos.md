@@ -11,7 +11,7 @@ O Calendario letivo para esse semestre ([calendario UFPB](http://www.prg.ufpb.br
 <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;hl=pt_BR&amp;bgcolor=%23FFFFFF&amp;src=eoc52gqg65oj86hkark8gs8lo0%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FFortaleza" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
 
 ---
-### *Plano da disciplina*:
+### *Plano da disciplina:*
 A disciplina de Dispositivos Eletrônicos é composta de três unidades:
 
 * Unidade 01: Diodo e junção PN
@@ -20,9 +20,13 @@ A disciplina de Dispositivos Eletrônicos é composta de três unidades:
 
 Você vai encontrar o link pra o plano completo da disciplina [aqui](link para o plano da disciplina).
 
-### *Provas e trabalhos*:
+---
 
-### *Livro texto*:
+### *Provas e trabalhos:*
+
+---
+
+### *Livro texto:*
 O principal livro utilizado nessa disciplina é o [Fundamentos de Microeletrônica](https://www.grupogen.com.br/fundamentos-de-microeletronica), outros livros são considerados como material de apoio. Por exemplo:
 
 * [Dispositivos Eletrônicos e Teoria dos Circuitos](https://www.amazon.com.br/Dispositivos-Eletr%C3%B4nicos-Teoria-dos-Circuitos/dp/8564574217/ref=pd_sim_14_5?_encoding=UTF8&pd_rd_i=8564574217&pd_rd_r=97decd31-cc49-11e8-9fea-e722222b4194&pd_rd_w=NXVIW&pd_rd_wg=7GGcH&pf_rd_i=desktop-dp-sims&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=d515db61-e263-47cd-b9d9-b33c1db68903&pf_rd_r=1E70EA5A5BA7793ZFWVA&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=1E70EA5A5BA7793ZFWVA)
@@ -33,8 +37,10 @@ Também é recomendado que o aluno tenha algum conhecimento de programação (de
 
 Abaixo eu tento listar algum material que pode servir de guia para seus estudos. Não faça desse material sua única fonte de estudo para disciplina. Estas são notas de aula que ainda estão sendo desenvolvidas e que portanto podem não acompanhar a sequência das aulas.
 
-### *Material de apoio*:
 ---
+
+### *Material de apoio:*
+
 * Unidade 00
   * Aula 01
   [[Nota de aula](/dispositivos/aula_01)]
@@ -45,7 +51,6 @@ Abaixo eu tento listar algum material que pode servir de guia para seus estudos.
     3. Revisão sobre fontes de corrente controlada
     4. Revisão sobre cálculo de correntes e tensões
 
----
 * Unidade 01
   [[Quiz](/dispositivos/quiz)]
   [[Exercicios](/dispositivos/exercicios)]
