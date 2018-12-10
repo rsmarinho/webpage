@@ -43,8 +43,8 @@
 
     <!-- Header -->
     <header id="header" class="alt">
-      <!-- <span class="image"><a href="{{ url_for( 'index' ) }}"><img src=/static/images/avatar.jpg alt="" /></a></span> -->
-      <h1><strong>{{ title }}</strong></h1>
+      <!-- <span class="image"><a href="{{ url_for( 'index' ) }}"><img src=/static/images/avatar.jpg style="height:20%;"></a></span> -->
+      <h1><strong><a href="{{ url_for( 'index' ) }}">{{ title }}</a></strong></h1>
       <h2>{{ subtitle }}</h2>
       <ul class="icons">
         {% for icon in icons %}
@@ -72,7 +72,7 @@
     </div>
 
     <!-- Footer -->
-    <footer id="contact">
+    <footer id="footer">
       <section>
         <h2>Want to find me?</h2>
         <dl class="alt">
@@ -83,6 +83,8 @@
             CEP: 58051-900 <br>
             Cidade Universitária - João Pessoa - PB - Brasil
           </dd>
+					<dt>Email</dt>
+					<dd><a href="#">rsmarinho@cear.ufpb.br</a></dd>
           <ul class="actions">
 						<li><a target="_blank" title="Map to my office, on Google Maps" href="https://goo.gl/maps/5y9r7A6yv8Q2" class="button"><i class="icon fa-map-marker"></i> Google Maps</a></li>
 						<!-- <li><a target="_blank" title="Map to my office, on Open Street Map" href="" class="button"><i class="icon fa-map-o"></i> Open Street Map</a></li> -->
