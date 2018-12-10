@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  
+  <title>Rafael Marinho</title>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+  <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    config: ["MMLorHTML.js"],
+    jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+    extensions: ["MathMenu.js", "MathZoom.js"]
+  });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121918639-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121918639-2');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7583081736859624",
+    enable_page_level_ads: true
+  });
+  </script>
+</head>
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <!-- <span class="image"><a href="/"><img src=/static/images/avatar.jpg alt="" /></a></span> -->
+      <h1><strong>Rafael Marinho</strong></h1>
+      <h2><p>Currently PhD at <a href=http://xlim.fr>XLIM</a> and Professor at <a href=http://ufpb.br>UFPB</a>.</p></h2>
+      <ul class="icons">
+        
+        <li><a href="http://twitter.com/rsmarinhoo" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+        
+        <li><a href="http://www.linkedin.com/in/rsmarinho" class="icon fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+        
+        <li><a href="http://instagram.com/rsmarinhoo" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+        
+        <li><a href="http://github.com/rsmarinho" class="icon fa-github alt"><span class="label">Github</span></a></li>
+        
+        <li><a href="mailto:rsmarinho@cear.ufpb.br" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
+        
+      </ul>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li><a href="/#intro" class="active">Home</a></li>
+        <li><a href="/#second">Production</a></li>
+        <li><a href="/#third">Courses</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- here goes the pages -->
+      
+<section class="content">
+ <div class="inner">
+   <div>
+     <div class="box">
+       <div class="content" align="justify">
+         <h2>Dispositivos Eletrônicos</h2>
+         
+         <h3>Aula: 20</h3>
+         
+         <hr>
+<h4>Unidade 03 : Transistores CMOS</h4>
+<hr>
+<h1>Amplificadores com MOSFETs (1/2)</h1>
+<h2>Plano de Aula:</h2>
+<ul>
+<li>Configuração Fonte-Comum<ul>
+<li>Ganho, impedâncias de entrada e saída</li>
+<li>Degeneração de fonte</li>
+<li>Impacto do efeito de modulação de canal</li>
+<li>Carga ativa</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Antes de começar devemos fazer algumas considerações. Lembramos que o 
+projeto de um amplificador utilizando transistores é baseado no cálculo 
+dos parâmetros de pequenos sinais do circuito do transistor, e na 
+topologia desse circuito. Em outras palavras, encontrar o ponto de 
+polarização do circuito de agordo com o ganho requerido pelo problema; 
+para que o transistor opere nesse ponto de polarização o circiuto de 
+apoio - circuito que é formado pelos resistores que estão conectados 
+aos terminais do transistor, por exemplo - deve ser dimensionado tal 
+que os valores de tensão e corrente nos terminais do transistor sejam 
+fixados.</p>
+<p>Nesse ponto devemos estabelecer alguns termos comuns ao estudo dos
+amplificadores com CMOS, as três topologias básicas de ligação do 
+transistor (e que se referem aos três terminais do transistor) são 
+listadas na tabela abaixo:</p>
+<table>
+<thead>
+<tr>
+<th>Entrada</th>
+<th>Saída</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Porta</td>
+<td>Dreno</td>
+<td>FONTE comum</td>
+</tr>
+<tr>
+<td>Fonte</td>
+<td>Dreno</td>
+<td>PORTA comum</td>
+</tr>
+<tr>
+<td>Porta</td>
+<td>Fonte</td>
+<td>DRENO comum</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><font color="red">
+aviso que deve fazer parte da aula 19
+</font></p>
+<p>Antes de continuar, lembramos que nosso modelo de pequenos sinais se 
+resume à uma análise simplificada do modelo. Nesse caso, somente são 
+calculados três parâmetros: <script type="math/tex">g_m</script>, <script type="math/tex">R_{B}</script> e <script type="math/tex">r_o</script>. Além disso, 
+apenas é possível o cálculo desses três parâmetros quando utilizamos 
+o transistor bipolar, isso porque no transistor MOSFET, to terminal
+de porta (equivalente nase no bipolar) apresenta uma resistência de
+entrada idealmente infinita devia à estrutura física do transistor.</p>
+<p>Portanto, para o transistor MOSFET como consideramos ao longo desse 
+curso, a resistência de entrada <script type="math/tex">r_{in}=\infty</script>. Apesar de isso ser 
+falso em altas frequências, para cursos iniciais de dispositivos 
+eletrônicos, devemos considerar algumas aproximações afim de facilitar
+o entendimento. O fato de considerarmos <script type="math/tex">r_{in}=\infty</script> significa 
+apenas que a corrente que entra no terminal porta do transistor é 
+desprezível para fins de análise nos casos estudados nessa disciplina.</p>
+<hr>
+<p>Nosso modelo de pequenos sinais somente leva em conta os dois
+parâmetros: <script type="math/tex">g_m</script> e <script type="math/tex">r_o</script>, e portanto, o </p>
+       </div>
+       <!-- <div>
+         <img src="/static/images/pic01.jpg" width=10% />
+       </div> -->
+     </div>
+   </div>
+ </div>
+</section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <h2>Find me?</h2>
+        <dl class="alt">
+          <dt>Address</dt>
+          <dd>UFPB - João Pessoa - PB - Brazil</dd>
+        </dl>
+      </section>
+      <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+  </div>
+
+<!-- Scripts -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.scrollex.min.js"></script>
+<script src="/static/js/jquery.scrolly.min.js"></script>
+<script src="/static/js/browser.min.js"></script>
+<script src="/static/js/breakpoints.min.js"></script>
+<script src="/static/js/util.js"></script>
+<script src="/static/js/main.js"></script>
+
+</body>
+</html>

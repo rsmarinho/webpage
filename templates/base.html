@@ -1,93 +1,113 @@
- <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
-	<head>
-    {% if title %}
-    <title>{{ title }}</title>
-    {% else %}
-    <title>Rafael Marinho</title>
-    {% endif %}
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href=/static/css/main.css />
-		<script type="text/x-mathjax-config">
-			MathJax.Hub.Config({
-			  config: ["MMLorHTML.js"],
-			  jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
-			  extensions: ["MathMenu.js", "MathZoom.js"]
-			});
-		</script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+<head>
+  {% if title %}
+  <title>{{ title }}</title>
+  {% else %}
+  <title>Rafael Marinho</title>
+  {% endif %}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+  <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    config: ["MMLorHTML.js"],
+    jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+    extensions: ["MathMenu.js", "MathZoom.js"]
+  });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121918639-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121918639-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-121918639-2');
-    </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-7583081736859624",
-        enable_page_level_ads: true
-      });
-    </script>
-	</head>
-	<body>
+  gtag('config', 'UA-121918639-2');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7583081736859624",
+    enable_page_level_ads: true
+  });
+  </script>
+</head>
 
-  <!-- Header -->
-  	<header id="header">
-  		<span class="avatar"><a href="{{ url_for( 'index' ) }}"><img src=/static/images/avatar.jpg alt="" /></a></span>
-  		<h1><strong>{{ title }}</strong></h1>
-      <h2>{{ subtitle }}</h2>
-  		<ul class="icons">
-        {% for icon in icons %}
-  			<li><a href="{{ icon.href }}" class="icon style2 {{ icon.icon }}"><span class="label">{{ icon.label }}</span></a></li>
-        {% endfor %}
-  		</ul>
-  	</header>
-
+<body class="is-preload">
   <!-- Wrapper -->
-    <div id="wrapper">
-    <!-- Thumbnails -->
-      <section class="thumbnails">
-        <div>
-          <a href= {{ url_for('page', path='cv') }}>
-            <!-- <img src="/static/images/thumbs/02.jpg" alt="" /> -->
-            <h3>CV</h3>
-          </a>
-        </div>
-        <div>
-          <a href= {{ url_for('page', path='production') }}>
-            <!-- < img src="/static/images/thumbs/02.jpg" alt="" /> -->
-            <h3>Produção</h3>
-          </a>
-        </div>
-        <div>
-          <a href= {{ url_for('page', path='courses') }}>
-            <!-- <img src="/static/images/thumbs/02.jpg" alt="" /> -->
-            <h3>Disciplinas</h3>
-          </a>
-        </div>
-        </section>
-        <!-- here goes the pages -->
-        {% block content %}
-        {% endblock %}
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <!-- <span class="image"><a href="{{ url_for( 'index' ) }}"><img src=/static/images/avatar.jpg alt="" /></a></span> -->
+      <h1><strong>{{ title }}</strong></h1>
+      <h2>{{ subtitle }}</h2>
+      <ul class="icons">
+        {% for icon in icons %}
+        <li><a href="{{ icon.href }}" class="icon {{ icon.icon }} alt"><span class="label">{{ icon.label }}</span></a></li>
+        {% endfor %}
+      </ul>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li><a href="{{ url_for( 'index' ) }}#home" class="active">Home</a></li>
+        <li><a href="{{ url_for( 'index' ) }}#production">Production</a></li>
+        <li><a href="{{ url_for( 'index' ) }}#courses">Courses</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- here goes the pages -->
+      {% block content %}
+      {% endblock %}
+
     </div>
 
     <!-- Footer -->
-    	<footer id="footer">
-    		<p>&copy;<a href="https://rsmarinho.com">Rafael Marinho</a></p>
-    		<p>João Pessoa - Paraíba - Brasil</p>
-    	</footer>
+    <footer id="contact">
+      <section>
+        <h2>Want to find me?</h2>
+        <dl class="alt">
+          <dt>Address</dt>
+          <dd>
+            Universidade Federal da Paraíba <br>
+            Centro de Engenharias Alternativas e Renováveis - CEAR <br>
+            CEP: 58051-900 <br>
+            Cidade Universitária - João Pessoa - PB - Brasil
+          </dd>
+          <ul class="actions">
+						<li><a target="_blank" title="Map to my office, on Google Maps" href="https://goo.gl/maps/5y9r7A6yv8Q2" class="button"><i class="icon fa-map-marker"></i> Google Maps</a></li>
+						<!-- <li><a target="_blank" title="Map to my office, on Open Street Map" href="" class="button"><i class="icon fa-map-o"></i> Open Street Map</a></li> -->
+					</ul>
+        </dl>
+      </section>
+      <p class="copyright">
+        <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/"><i class="fa fa-creative-commons"></i> BY-SA</a>
+				&copy; Rafael Marinho, 2018.
+				<a target="_blank" href="https://gitHub.com/rsmarinho/webpage/">Open source (on GitHub)</a>.
+				Inspired by <a title="Many thanks!" href="https://perso.crans.org/besson">Lilian Besson</a>'s webpage.
+				Design: <a target="_blank" href="https://html5up.net/stellar/">HTML5 UP</a>.
+      </p>
+    </footer>
 
-		<!-- Scripts -->
-			<!-- <script src="/static/js/jquery.min.js"></script>
-			<script src="/static/js/jquery.poptrox.min.js"></script>
-			<script src="/static/js/skel.min.js"></script>
-			<script src="/static/js/main.js"></script> -->
+  </div>
 
-	</body>
+<!-- Scripts -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.scrollex.min.js"></script>
+<script src="/static/js/jquery.scrolly.min.js"></script>
+<script src="/static/js/browser.min.js"></script>
+<script src="/static/js/breakpoints.min.js"></script>
+<script src="/static/js/util.js"></script>
+<script src="/static/js/main.js"></script>
+
+</body>
 </html>

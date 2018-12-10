@@ -1,11 +1,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {% if page.path == "cv" %}
-    {% include "cv.html" %}
-  {% elif page.path == "production" %}
-    {% include "production.html" %}
-  {% elif page.path == "courses" %}
-    {% include "courses.html" %}
-  {% endif %}
+
+<!-- home -->
+<section id="home" class="main">
+  <header class="major" >
+    <h2>Home</h2>
+    <!-- <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue
+    posuere. Nulla massa urna, fermentum eget quam aliquet.</p> -->
+  </header>
+
+  <p class="content">Assistant Professor with a demonstrated history of
+    working in research. Skilled in C/C++, Radio Frequency (RF),
+    Analog Circuit Design, LaTeX, and Matlab. Strong education
+    professional with a Master's degree focused in Electrical,
+    Electronics and Communications Engineering from Universidade
+    Estadual de Campinas. Currently working for UFPB and PhD candidate
+    at XLIM Laboratories.
+  </p>
+
+</section>
+
+<!-- courses -->
+<section id="courses" class="main">
+  <header class="major">
+    <h2>Courses</h2>
+  </header>
+
+  <p class="content">
+    {% for year in years %}
+    <h3>{{ year.year }} - Semestre : {{ year.period }}</h3>
+    {% for class in classes %}
+    {% if class.year == year.year %}
+    {% if class.period == year.period %}
+    <ul>
+      <li><a href= "{{ url_for('course_year', tpath=class.href, ano=class.year, sem=class.period) }}">
+        {{ class.class }}
+      </a></li>
+    </ul>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </p>
+</section>
 {% endblock %}

@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  
+  <title>Rafael Marinho</title>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+  <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    config: ["MMLorHTML.js"],
+    jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+    extensions: ["MathMenu.js", "MathZoom.js"]
+  });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121918639-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121918639-2');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7583081736859624",
+    enable_page_level_ads: true
+  });
+  </script>
+</head>
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <!-- <span class="image"><a href="/"><img src=/static/images/avatar.jpg alt="" /></a></span> -->
+      <h1><strong>Rafael Marinho</strong></h1>
+      <h2><p>Currently PhD at <a href=http://xlim.fr>XLIM</a> and Professor at <a href=http://ufpb.br>UFPB</a>.</p></h2>
+      <ul class="icons">
+        
+        <li><a href="http://twitter.com/rsmarinhoo" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+        
+        <li><a href="http://www.linkedin.com/in/rsmarinho" class="icon fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+        
+        <li><a href="http://instagram.com/rsmarinhoo" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+        
+        <li><a href="http://github.com/rsmarinho" class="icon fa-github alt"><span class="label">Github</span></a></li>
+        
+        <li><a href="mailto:rsmarinho@cear.ufpb.br" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
+        
+      </ul>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li><a href="/#intro" class="active">Home</a></li>
+        <li><a href="/#second">Production</a></li>
+        <li><a href="/#third">Courses</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- here goes the pages -->
+      
+<section class="content">
+ <div class="inner">
+   <div>
+     <div class="box">
+       <div class="content" align="justify">
+         <h2>Dispositivos Eletrônicos</h2>
+         
+         <h3>Aula: 1</h3>
+         
+         <hr>
+<h1>Dispositivos Eletrônicos</h1>
+<h2>Unidade 01 : Conceitos gerais, junção PN e Diodos</h2>
+<hr>
+<h1>Revisão e Contextualização</h1>
+<h1>Plano de Aula:</h1>
+<ul>
+<li>Contextualização da disciplina</li>
+<li>Revisão sobre fontes reais de sinais</li>
+<li>Fontes de corrente controlada</li>
+<li>Cálculo de correntes e tensões com objetivos de caracterização</li>
+</ul>
+<hr>
+<h2>Contextualização</h2>
+<p>Na disiciplina de sinais e sistemas vocês aprenderam (ou aprenderão) a estrutura de um sinal analógico e sobre como representá-lo em frequência. Aprenderam sobre amostragem e digitalização de um sinal analógico e sobre como reconstruí-lo de tal forma que a informação contida nesse sinal possa ser reconstituída.</p>
+<p>O que não deve ter ficado claro, porém, é que a transformação de um sinal analógico para um sinal digital é <em>meramente</em> um artifício matemático que permite a operação desses sinais em outro domínio, ou em abstrações de processadores lógicos. O que deve ficar claro nessa situação é que o sinal <em>elétrico</em> que trafega pelos componentes ainda é analógico! Ou seja, o processamento elétrico de qualquer sinal é feito analogicamente.</p>
+<p>Nesse contexto, podemos afirmar que a engenharia é feita de abstrações e compartimentalização de problemas. O que na (<script type="math/tex">\mu</script>-)eletrônica pode ser traduzido com a afirmação de que eventualmente você encontrará problemas em que será necessário estimar um dispositivo "forçando" uma corrente ou uma tensão em determinado ponto de um circuito.</p>
+<p><img class="center" src=/static/figures/ alt="drawing"></p>
+<p>O circuito da figura acima, por exemplo, pode ser considerado uma abstração básica que demonstra características de circuitos encontrados em eletrônica.</p>
+<p>Em uma estrutura mais completa podemos, por exemplo, visualizar o circuito eletrônico como uma fonte equivalente de Thèvenin conectada na entrada do próximo circuito.</p>
+<h2>Fontes ideais vs. Fontes reais</h2>
+<p>Devemos supor que no mundo real fontes ideais não existem, pois caso existissem seria gerado um paradoxo (ao conectar seus terminais positivo e negativo a corrente que passa no curto-circuito deveria ser infinita). Ora se fontes ideais não existem, o que fazer? A representação de uma fonte real com uma resistência de fonte responde a esse questionamento e estabelece dois modelos de fontes que são equivalentes: O modelo de fonte equivalente de Norton e o modelo de fonte equivalente de Thèvenin.</p>
+<p><img class="center" src=/static/figures/ alt="equivalente_norton_thevenin"></p>
+<p>Agora, com os equivalente de fonte, como estabeler se a ligação forçada em determinado ponto do circuito é de corrente e de tensão? Em outras palavras, ao conectar uma fonte <em>real</em> a determinado circuito, como saber se essa fonte real funciona como uma fonte de tensão ou uma fonte de corrente? Bem, essa resposta depende do referencial. Suponha por exemplo o circuito representado na figura abaixo:</p>
+<p><img class="center" src=/static/figures/ alt="exemplo_fontes_tensao_corrente"></p>
+<p>Devemos calcular a corrente injetada na resistência de carga <script type="math/tex">R_L</script> e a tensão medida em seus terminais. Para esses casos suponha que a resistência <script type="math/tex">R_L</script> possa assumir quatro valores diferentes: No caso (a) quando <script type="math/tex">R_L>>R_S</script> temos <script type="math/tex">R_L=1k\Omega</script>, <script type="math/tex">R_L=10k\Omega</script>. No caso (b) quando <script type="math/tex">R_L<<R_S</script> temos <script type="math/tex">R_L=1m\Omega</script>, <script type="math/tex">R_L=10\mu\Omega</script>.</p>
+<hr>
+<p>No caso (a) temos que:
+<script type="math/tex; mode=display">
+v_L(R_L=1k) = 1.5\frac{1k}{1k+1}=1.498\,V, \\ i_L(R_L=1k)=\frac{1.498}{1k}=1.498\,mA
+</script>e<script type="math/tex; mode=display">
+v_L(R_L=10k) = 1.5\frac{10k}{10k+1}=1.498\,V, \\ i_L(R_L=10k)=\frac{1.498}{10k}=0.1498\,mA
+</script>
+No caso (b) temos que:
+<script type="math/tex; mode=display">
+v_L(R_L=10^{-3}) = 1.5\frac{10^{-3}}{10^{-3}+1}=1.498\,mV,\\ i_L(R_L=10^{-3})=\frac{1.498\times10^{-3}}{10^{-3}}=1.498\,A
+</script>
+<script type="math/tex; mode=display">
+v_L(R_L=10^{-2}) = 1.5\frac{10^{-2}}{10^{-2}+1}=14.85\,mV,\\ i_L(R_L=10^{-2})=\frac{1.498\times10^{-3}}{10^{-2}}=1.48\,A
+</script>
+</p>
+<hr>
+<p>Repare que na situação (a), quando <script type="math/tex">R_L>>R_S</script>, a tensão na carga permanece (quasi-) estável, enquanto a corrente modifica muito. No caso (b), quando <script type="math/tex">R_L<<R_S</script> acontece a situação contrária, a corrente permanece (quasi-) estável e a tensão modifica muito.</p>
+<p>Diz-se então que na situação (a) a fonte é de tensão pois o circuito está sendo alimentado por uma tensão fixa. Enquanto na situação (b) é dito que a fonte é de corrente pois o circuito está sendo alimentado por uma corrente fixa.</p>
+<h2>Fonte de Corrente Controlada</h2>
+<p>Em alguns casos, existem circuitos que são representados por fontes de corrente controladas. Usualmente, a relação entre o controle de corrente é dado por um fator de multiplicação (<script type="math/tex">k</script>); entretanto, quando essas fontes são utilizadas para modelagem de dispositivos
+e possível que essa relação possa ser representada por uma função não-linear.</p>
+<p>Fontes de corrente controladas são estruturas de duas portas diferenciais, como representado na figura abaixo. Perceba que à saída é conectada uma fonte de corrente de valor <script type="math/tex">i=k\times v_C</script>, onde <script type="math/tex">v_C</script> é o sinal aplicado aos terminais de entrada da fonte, e <script type="math/tex">k</script> é o termo que multiplica a referência de corrente.</p>
+<p><img class="center" src=/static/figures/ alt="fonte_corrente_controlada"></p>
+<p>Várias coisas podem ser modeladas com fontes de corrente controladas por tensão (CCCV), Por exemplo, podemos modelar o comportamento de um diodo conectando os terminais de entrada da CCCV com os terminais de saída da seguinte forma</p>
+<p><img class="center" src=/static/figures/ alt="fonte_corrente_controlada"></p>
+<p>Nesse caso, entretanto a relação I-V do circuito é uma relação não linear pois descreve o comportamento I-V de um diodo. Portanto, a relação de corrente vs. tensão nos terminais do diodo é representada por
+<script type="math/tex; mode=display">
+i=I_D=f(v_D)=k_1\exp{(k_2v_D)}
+</script>
+</p>
+<h2>Cálculo de correntes e tensões com objetivos de caracterização</h2>
+<p>Esta modelagem não linear do diodo serve para reforçar um dos objetivos da disciplina, o de desenvolver habilidades no projeto de amplificadores. Para isso, estamos interessados dentre outras coisas na <em>relação entre tensões</em> em pares diferentes de terminais (o que descreve ganho), na relação entre tensão e uma corrente (o que descreve uma resistência), ou em uma combinação dessas características.</p>
+<hr>
+<p><em>Exemplo:</em></p>
+       </div>
+       <!-- <div>
+         <img src="/static/images/pic01.jpg" width=10% />
+       </div> -->
+     </div>
+   </div>
+ </div>
+</section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <h2>Find me?</h2>
+        <dl class="alt">
+          <dt>Address</dt>
+          <dd>UFPB - João Pessoa - PB - Brazil</dd>
+        </dl>
+      </section>
+      <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+  </div>
+
+<!-- Scripts -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.scrollex.min.js"></script>
+<script src="/static/js/jquery.scrolly.min.js"></script>
+<script src="/static/js/browser.min.js"></script>
+<script src="/static/js/breakpoints.min.js"></script>
+<script src="/static/js/util.js"></script>
+<script src="/static/js/main.js"></script>
+
+</body>
+</html>

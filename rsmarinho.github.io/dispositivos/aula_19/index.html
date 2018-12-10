@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  
+  <title>Rafael Marinho</title>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+  <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    config: ["MMLorHTML.js"],
+    jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+    extensions: ["MathMenu.js", "MathZoom.js"]
+  });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121918639-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121918639-2');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7583081736859624",
+    enable_page_level_ads: true
+  });
+  </script>
+</head>
+
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+      <!-- <span class="image"><a href="/"><img src=/static/images/avatar.jpg alt="" /></a></span> -->
+      <h1><strong>Rafael Marinho</strong></h1>
+      <h2><p>Currently PhD at <a href=http://xlim.fr>XLIM</a> and Professor at <a href=http://ufpb.br>UFPB</a>.</p></h2>
+      <ul class="icons">
+        
+        <li><a href="http://twitter.com/rsmarinhoo" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+        
+        <li><a href="http://www.linkedin.com/in/rsmarinho" class="icon fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+        
+        <li><a href="http://instagram.com/rsmarinhoo" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+        
+        <li><a href="http://github.com/rsmarinho" class="icon fa-github alt"><span class="label">Github</span></a></li>
+        
+        <li><a href="mailto:rsmarinho@cear.ufpb.br" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
+        
+      </ul>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul>
+        <li><a href="/#intro" class="active">Home</a></li>
+        <li><a href="/#second">Production</a></li>
+        <li><a href="/#third">Courses</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- here goes the pages -->
+      
+<section class="content">
+ <div class="inner">
+   <div>
+     <div class="box">
+       <div class="content" align="justify">
+         <h2>Dispositivos Eletrônicos</h2>
+         
+         <h3>Aula: 19</h3>
+         
+         <hr>
+<h1>Dispositivos Eletrônicos</h1>
+<h2>Unidade 03 : Transistores CMOS</h2>
+<hr>
+<h1>Modelo equivalente para pequenos sinais e polarização</h1>
+<p>Essa é a aula 19 mosfets: modelo equivalente para pequenos sinais
+e polarização</p>
+<p>+++
+Então tá aqui o plano da aula, a gente vai começar pelo modelo
+equivalente para análise de pequenos sinais, como a gente tinha visto
+tanto para o diodo quanto para transistor bipolar, em termos da
+transcondutância e resistência de saída. Em seguida a gente vai abordar
+os circuitos de polarização tanto com tensão vgs fixa, como com o
+resistor de degeneração de fonte que é o equivalende ao resistor de
+desgeneração do emisso, no caso do bipolar. E também por polarização
+por espelho de corrente.</p>
+<p>+++
+Tal como a gente viu no caso do transistor bipolar, a gente procede da
+mesma forma para converter o modelo não linear em um modelo linearizado
+para a análise de pequenos sinais em torno de um ponto de polarização.</p>
+<p>Então vejam aqui no caso não linear, se a gente tiver um transistor cujo
+a corrente de dreno é dada por</p>
+<p>
+<script type="math/tex; mode=display">
+\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{GS}-V_{TH})^2
+</script>
+</p>
+<p>isso vai se converter apenas numa transcondutância gmvgs por que a
+corrente de dreno só depende de vgs, não depende nesse caso de vds.
+E aqui a gente vê que a porta, por causa da estrutura física do
+transistor (têm um isolante logo abaixo da porta com material condutor),
+então a gente vai dizer que em baixa frequência não tem corrente de
+porta, portanto o circuito é aberto como está aqui. Então a gente vai
+com o mesmo circuito aberto para o modelo de pequeno sinal.</p>
+<p>Agora, se por outro lado a gente leva em consideração o efeito de
+modulação do canal, a gente tem então uma corrente de dreno:</p>
+<p>
+<script type="math/tex; mode=display">
+\frac{1}{2}\mu_nC_{ox}\frac{W}{L}(V_{GS}-V_{TH})^2(1+\lambda V_{DS})
+</script>
+</p>
+<p>então essa corrente de dreno não somente depende de vgs que é a tensão
+de controlo, como também depende de vds e aí dá origem a nossa
+resistência r0 do nosso modelo de pequenos sinais equivalente.</p>
+<p>+++
+Então como é que a gente faz?
+Se a gente considerar o primeiro caso como o caso mais simples onde
+não há modulação do comprimento do canal. Então a gente pega a equação
+e fazemos simplesmente a derivada, a única derivada que existe é da
+nossa corrente de dreno em relação há tensão vgs. Isso a gente faz
+com o vds de polarização, sem variação, sem flutuação. Então aí a
+derivada é relativamente simples, então dá essa expressão daqui que é</p>
+<p>
+<script type="math/tex; mode=display">
+\frac{d I_{D0}}{d V_{GS}}=\mu_nC_{ox}\frac{W}{L}(V_{GS}-V_{TH})
+</script>
+</p>
+<p>Se colocarmos a expressão em termos de corrente de dreno sobre tensão
+VGS (devemos nesse caso considerar vgh pois é constante), então</p>
+<p>
+<script type="math/tex; mode=display">
+g_m=\frac{2I_{D0}}{V_{GS}-V_{TH}}=\sqrt{2\mu_nC_{ox}\frac{W}{L}I_D}
+</script>
+</p>
+<p>Essa expressão a gente vai usar bastante.</p>
+<p>+++
+Se a gente agora considerar o efeito de modulação de canal, então a
+gente vai fazer a transcondutância do mesmo jeito, vamos considerar
+variações de corrente de dreno em relação de flutuações de tensão vgs
+para um vds fixo, onde não haja variação de tensão de polarização vds.
+Então no fim das contas, fazendo a derivada da equação em relação a vgs,
+então o termo (1+\lambda*vds) passa a ser uma constante.</p>
+<p>Lembrando ainda que nesse caso, apesar da equação s*ID0/(vgs-vth) ser
+identica ao caso anterior, considera-se que Id0 obedece a relação da
+modulação de corrente.</p>
+<p>+++
+Slide 06</p>
+<p>Então, vejam aí, as expressões sempre querem nos dizre alguma coisa.</p>
+<p>Como por exemplo podemos maximizar a transcondutância? Imaginemos uma
+aplicação onde a corrente de dreno do transistor é limitada por questões
+de autonomia de bateria, por exemplo para maximizar seu tempo de vida,
+como faríamos para maximizar a transcondutância. Lembrando que no caso
+do bipolar a transcondutância depende apenas da corrente do coletor,
+da corrente de polarização, nesse caso não temos como mexer na
+trascondutância para determinada corrente de polarização de coletor.</p>
+<p>No caso do MOS, como a expressão é diferente, podemos variar a relação
+de vgs, já que além da corrente de polarização Id gm é indiretamente
+proporcional a vgs-vth. Portanto a transcondutância do transistor
+cmos é variavel para uma corrente fixa.</p>
+<p>Mas como diminuir vgs-vth para? Nesse caso, para manter o mesmo Id0
+e variar vth, devemos compensar a equação variando a razão W/L.</p>
+<p>+++</p>
+<p>Diferentemente do trnasistor bipolar podemos de certa forma controlar
+a transcondutância. Nesse caso, podemos compara os dois transistores
+pelo seus ganhos de pequenos sinais.</p>
+<p>Nesse caso, para que o ganho de transcondutância do mos seja igual a
+do bipolar, devemos fazer com que (vgs-vth)/2 seja igual a vt, e para
+que a transcondutância seja maior (vgs-vth) tem que ser menor do que
+2*vt.</p>
+<p>Comparativamente, é preciso um transistor MOS muito maior do que o
+bipolar (em boa parte dos casos) para um mesmo valor de ganho de
+transcondutância e corrente de polarização.</p>
+<p>+++
+É preciso agora conhecermos as características de um sinal ac dito
+"pequeno" para que o circuito equivalente de pequenos sinais possa
+ser utilizado durante a análise.</p>
+<hr>
+<h2>Exemplo 02:</h2>
+<p>Nesse caso, queremos projetar o circuito de polarização para que o
+transistor opere em um ponto de polarização determinado. Para o circuito
+mostrado na figura, devemos então determinar o valor do resistor <script type="math/tex">R_1</script>.</p>
+<p>No problema, queremos que o transistor opere na fronteira de saturação,
+portanto <script type="math/tex">V_{DS}=V_{GS}-V_{TH}</script>
+</p>
+<hr>
+<h2>Slide 20</h2>
+<p>No espelho de corrente da figura, devemos atentar para o transistor
+<script type="math/tex">M_1</script> que sempre estará em saturação. Isso acontece porque
+<script type="math/tex">V_{DS}=V_{GS}</script>, como <script type="math/tex">V_{TH}</script> em um transistor MOS do tipo N é
+sempre positivo Para o caso do transistor operando em saturação, temos
+que <script type="math/tex">V_{GS}</script> é sempre inferior a <script type="math/tex">V_{DS}</script>, pois
+<script type="math/tex">V_{GS}-V_{TH}=V_{DS}</script>.</p>
+<p>No caso do espelho de corrente da figura, como o</p>
+       </div>
+       <!-- <div>
+         <img src="/static/images/pic01.jpg" width=10% />
+       </div> -->
+     </div>
+   </div>
+ </div>
+</section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section>
+        <h2>Find me?</h2>
+        <dl class="alt">
+          <dt>Address</dt>
+          <dd>UFPB - João Pessoa - PB - Brazil</dd>
+        </dl>
+      </section>
+      <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+
+  </div>
+
+<!-- Scripts -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.scrollex.min.js"></script>
+<script src="/static/js/jquery.scrolly.min.js"></script>
+<script src="/static/js/browser.min.js"></script>
+<script src="/static/js/breakpoints.min.js"></script>
+<script src="/static/js/util.js"></script>
+<script src="/static/js/main.js"></script>
+
+</body>
+</html>

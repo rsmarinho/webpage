@@ -103,10 +103,13 @@ classes = [
 @app.route('/')
 # @app.route('/index/')
 def index():
-	return render_template('base.html',
-                title=title,
-                subtitle=subtitle,
-                icons=icons)
+	return render_template('index.html',
+		title=title,
+		subtitle=subtitle,
+		icons=icons,
+		years=years,
+		classes=classes,
+		page=page)
 
 @app.route('/<path:path>/')
 def page(path):
