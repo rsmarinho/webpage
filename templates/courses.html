@@ -7,13 +7,6 @@
         {% for year in years %}
           <header class="align-center">
             <h2>{{ year.year }} - Semestre : {{ year.period }}</h2>
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-7583081736859624",
-                enable_page_level_ads: true
-              });
-            </script>
           </header>
           {% for class in classes %}
           {% if class.year == year.year %}
