@@ -1,2 +1,0 @@
-title: CV
-menu: cv

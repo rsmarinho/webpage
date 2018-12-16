@@ -14,13 +14,22 @@
       <!-- <img src="/static/images/avatar.jpg" alt="" style="width:40%;/> -->
     <!-- </span> -->
   <!-- </div> -->
-  <p class="content">Assistant Professor with a demonstrated history of
-    working in research. Skilled in C/C++, Radio Frequency (RF),
-    Analog Circuit Design, LaTeX, and Matlab. Strong education
-    professional with a Master's degree focused in Electrical,
-    Electronics and Communications Engineering from Universidade
-    Estadual de Campinas. Currently working for UFPB and PhD candidate
-    at XLIM Laboratories.
+  <p class="content">
+    <div class="content" align="justify">
+      {{ home.body|markdown }}
+    </div>
+  </p>
+</section>
+
+<!-- production -->
+<section id="production" class="main">
+  <header class="major" >
+    <h2>Production</h2>
+  </header>
+  <p class="content">
+    <div class="content" align="justify">
+      {{ production.body|markdown }}
+    </div>
   </p>
 </section>
 
@@ -29,7 +38,10 @@
   <header class="major">
     <h2>Courses</h2>
   </header>
-
+  <p class="content"> Here you will find some course material from the courses
+    I give at UFPB. All material is in portuguese, but eventualy may be
+    something in english. Fell free to ask anything or send some correction if
+    you may.</p>
   <p class="content">
     {% for year in years %}
     <h3>{{ year.year }} - Semestre : {{ year.period }}</h3>

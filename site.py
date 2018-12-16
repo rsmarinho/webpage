@@ -79,10 +79,10 @@ years = [
         'year': '2018',
         'period': '2'
     },
-    {
-        'year': '2019',
-        'period': '1'
-    },
+    # {
+    #     'year': '2019',
+    #     'period': '1'
+    # },
 ]
 classes = [
     {
@@ -103,24 +103,25 @@ classes = [
 @app.route('/')
 # @app.route('/index/')
 def index():
-	return render_template('index.html',
-		title=title,
+    return render_template('index.html',
+    title=title,
 		subtitle=subtitle,
 		icons=icons,
 		years=years,
 		classes=classes,
-		page=page)
+		home=pages.get_or_404(os.path.join('home')),
+		production=pages.get_or_404(os.path.join('production')))
 
-@app.route('/<path:path>/')
-def page(path):
-	page = pages.get_or_404(path)
-	return render_template('index.html',
-		title=title,
-		subtitle=subtitle,
-		icons=icons,
-		years=years,
-		classes=classes,
-		page=page)
+# @app.route('/<path:path>/')
+# def page(path):
+# 	page = pages.get_or_404(path)
+# 	return render_template('index.html',
+# 		title=title,
+# 		subtitle=subtitle,
+# 		icons=icons,
+# 		years=years,
+# 		classes=classes,
+# 		page=page)
 
 # Rota para as aulas
 @app.route('/<string:tpath>/<string:aula>/')
