@@ -4,16 +4,10 @@ menu: courses
 date: 2018.2
 
 ---
+### Unidade 01 : Conceitos gerais, junção PN e Diodos
+##Circuitos e Aplicações com diodos (1/2)
 
-# Dispositivos Eletrônicos
-## Unidade 01 : Conceitos gerais, junção PN e Diodos
-
----
-
-Circuitos e Aplicações com diodos (1/2)
-=======================================
-
-## Plano de Aula:
+### Plano de Aula:
 * Regiões de funcionamento e aplicações
 * Aplicações com diodos: Limitadores e ceifadores, Retificadores
 

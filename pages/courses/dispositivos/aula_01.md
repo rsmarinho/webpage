@@ -4,16 +4,10 @@ menu: courses
 date: 2018.2
 
 ---
+### Unidade 01 : Conceitos gerais, junção PN e Diodos
+## Revisão e Contextualização
 
-# Dispositivos Eletrônicos
-## Unidade 01 : Conceitos gerais, junção PN e Diodos
-
----
-
-Revisão e Contextualização
-==========================
-
-# Plano de Aula:
+### Plano de Aula:
 * Contextualização da disciplina
 * Revisão sobre fontes reais de sinais
 * Fontes de corrente controlada

@@ -4,16 +4,10 @@ menu: courses
 date: 2018.2
 
 ---
+### Unidade 01 : Conceitos gerais, junção PN e Diodos
+## Introdução à física da junção PN (1/2)
 
-# Dispositivos Eletrônicos
-## Unidade 01 : Conceitos gerais, junção PN e Diodos
-
----
-
-Introdução à física da junção PN (1/2)
-======================================
-
-## Plano de Aula:
+### Plano de Aula:
 * Construção da Junção PN
 * Junção PN em equilíbrio termodinâmico
 * Junção PN sob polarização inversa

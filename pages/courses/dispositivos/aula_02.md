@@ -4,16 +4,10 @@ menu: courses
 date: 2018.2
 
 ---
+### Unidade 01 : Conceitos gerais, junção PN e Diodos
+## Princípios de Condução de Corrente Elétrica em Sólidos
 
-# Dispositivos Eletrônicos
-## Unidade 01 : Conceitos gerais, junção PN e Diodos
-
----
-
-Princípios de Condução de Corrente Elétrica em Sólidos
-======================================================
-
-# Plano de Aula:
+### Plano de Aula:
 * Materiais Condutores, Isolates e Semicondutores
 * Propriedades do Silício Intrínseco
 * Dopagem e seus efeitos (ou sobre como modificar algumas das propriedades do semicondutor)
