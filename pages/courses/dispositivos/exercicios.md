@@ -35,3 +35,8 @@ Exercícios de fixação
   * 2.19
   * 2.24
   * 2.28
+
+* Aula 05 - (Utilize: \(I_S=10^{-16}\) e \(V_T=25.864\,mV\), caso não esteja expresso na questão)
+  * 3.25 todos
+  * 3.31 todos
+  * 3.32 todos

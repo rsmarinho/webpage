@@ -19,8 +19,8 @@ Informações sobre as tarefas
 
 # Tarefas
 
-* Quiz 01
-* Quiz 02
-* Quiz 03
+* [Quiz 01](/static/quiz/q1.pdf)
+* [Quiz 02](/static/quiz/q2.pdf)
+* [Quiz 03](/static/quiz/q3.pdf)
 * Quiz 04
 * Quiz 05
