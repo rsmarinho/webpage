@@ -21,6 +21,15 @@ A disciplina de Dispositivos Eletrônicos é composta de três unidades:
 Você vai encontrar o link pra o plano completo da disciplina [aqui](link para o plano da disciplina).
 
 ---
+### *Contato*
+Os horários para consulta fora do horário de aula são:
+
+* Segunda-feira - 14h-16h
+* Quinta-feira - 14h-16h
+
+Por e-mail não esqueça de seguir a expressão '[Dispositivos] - &#60;título&#62;' no título do e-mail. Caso contrário meu cliente de e-mail filtrará diretamente para a pasta de *spam*. O e-mail é <a href="mailto:rsmarinho@cear.br">rsmarinho@gmail.com</a>.
+
+---
 
 ### *Provas e trabalhos:*
 
@@ -41,53 +50,87 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
 
 ### *Material de apoio:*
 
-* Unidade 00
-  * Aula 01
-  [[Nota de aula](/dispositivos/aula_01)]
-    1. Contextualização da disciplina
-    2. Revisão sobre fontes reais de sinais
-    3. Revisão sobre fontes de corrente controlada
-    4. Revisão sobre cálculo de correntes e tensões
+## Unidade 00
 
-* Unidade 01
+* Aula 01
+[[Nota de aula](/dispositivos/aula_01)]
+  1. Contextualização da disciplina
+  2. Revisão sobre fontes reais de sinais
+  3. Revisão sobre fontes de corrente controlada
+  4. Revisão sobre cálculo de correntes e tensões
+
+## Unidade 01
   [[Quiz](/dispositivos/quiz)]
   [[Exercicios](/dispositivos/exercicios)]
 
-  * Aula 02 - Princípios de Condução de Corrente Elétrica em Sólidos
-  [[Nota de aula](/dispositivos/aula_02)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Materiais Condutores, Isolates e Semicondutores
-    2. Propriedade do silício intrínseco
-    3. Dopagem e seus efeitos
-    4. Deriva e difusão de portadores de carga
+* Aula 02 - Princípios de Condução de Corrente Elétrica em Sólidos
+[[Nota de aula](/dispositivos/aula_02)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Materiais Condutores, Isolates e Semicondutores
+  2. Propriedade do silício intrínseco
+  3. Dopagem e seus efeitos
+  4. Deriva e difusão de portadores de carga
 
-  * Aula 03 - Introdução à física da junção PN (1/2)
-  [[Nota de aula](/dispositivos/aula_03)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Construção da Junção PN
-    2. Junção PN em equilíbrio termodinâmico
-    3. Junção PN sob polarização inversa
+* Aula 03 - Introdução à física da junção PN (1/2)
+[[Nota de aula](/dispositivos/aula_03)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Construção da Junção PN
+  2. Junção PN em equilíbrio termodinâmico
+  3. Junção PN sob polarização inversa
 
-  * Aula 04 - Introdução à Física da Junção PN (2/2)
-  [[Nota de aula](/dispositivos/aula_04)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Jução PN sob polarização direta
-    2. Características I-V da junção PN
+* Aula 04 - Introdução à Física da Junção PN (2/2)
+[[Nota de aula](/dispositivos/aula_04)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Jução PN sob polarização direta
+  2. Características I-V da junção PN
 
-  * Aula 05 - Modelos equivalentes para análise de circuitos com diodo
-  [[Nota de aula](/dispositivos/aula_05)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Três modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
-    2. Modelo para análise de pequenos sinais
+* Aula 05 - Modelos equivalentes para análise de circuitos com diodo
+[[Nota de aula](/dispositivos/aula_05)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Três modelos à escolha: Exponencial, Ideal e o de Queda de tensão constante
+  2. Modelo para análise de pequenos sinais
 
-  * Aula 06 - Circuitos e Aplicações com diodos (1/2)
-  [[Nota de aula](/dispositivos/aula_06)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Regiões de funcionamento e aplicações
-    2. Aplicações com diodos: Limitadores e ceifadores, Retificadores.
+* Aula 06 - Circuitos e Aplicações com diodos (1/2)
+[[Nota de aula](/dispositivos/aula_06)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Regiões de funcionamento e aplicações
+  2. Aplicações com diodos: Limitadores e ceifadores, Retificadores.
 
-  * Aula 07 - Circuitos e Aplicações com diodos (2/2)
-  [[Nota de aula](/dispositivos/aula_07)]
-  <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
-    1. Reguladores de tensão
-    2. Outras aplicações de interesse
+* Aula 07 - Circuitos e Aplicações com diodos (2/2)
+[[Nota de aula](/dispositivos/aula_07)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Reguladores de tensão
+  2. Outras aplicações de interesse
+
+## Unidade 02
+  [[Quiz](/dispositivos/quiz)]
+  [[Exercicios](/dispositivos/exercicios)]
+
+* Aula 08 - Princípio de funcionamento de transistores bipolares (1/2)
+[[Nota de aula](/dispositivos/aula_08)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Importância dos transistores
+  2. Revisão sobre Diodo: análise do diodo em polarização direta e reversa
+  3. O "efeito" transistor
+  4. Construção do transistor
+
+* Aula 09 - Princípio de funcionamento de transistores bipolares (2/2)
+[[Nota de aula](/dispositivos/aula_09)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Regime ativo reverso (para poder entender a saturação)
+  2. Regime de saturação (direta)
+  3. Limitações/efeitos parasitas:
+    * Efeito Early
+    * Ruptura
+    * Variações com a temperatura
+    * Limitação na potência dissipada
+
+* Aula 10 - Regiões de funcionamento e modelos equivalentes do TBJ
+[[Nota de aula](/dispositivos/aula_10)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Região de saturação
+    * Aplicação
+    * Funcionamento
+    * Modelo equivalente
+  2. Região Ativa
+    * Modelos Equivalentes AC - (Modelo de pequenos-sinais)

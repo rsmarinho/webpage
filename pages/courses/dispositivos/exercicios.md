@@ -40,3 +40,17 @@ Exercícios de fixação
   * 3.25 todos
   * 3.31 todos
   * 3.32 todos
+
+* Aula 06
+  * 3.34
+  * 3.35
+  * 3.38
+  * 3.39
+  * 3.47
+  * 3.49
+
+## Unidade 02
+* Aula 08
+  * 4.4
+  * 4.5
+  * 4.6
