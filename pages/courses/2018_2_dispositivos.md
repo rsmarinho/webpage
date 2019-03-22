@@ -27,7 +27,7 @@ Os horários para consulta fora do horário de aula são:
 * Segunda-feira - 14h-16h
 * Quinta-feira - 14h-16h
 
-Por e-mail não esqueça de seguir a expressão '[Dispositivos] - &#60;título&#62;' no título do e-mail. Caso contrário meu cliente de e-mail filtrará diretamente para a pasta de *spam*. O e-mail é <a href="mailto:rsmarinho@cear.br">rsmarinho@gmail.com</a>.
+Por e-mail não esqueça de seguir a expressão '[Dispositivos] - &#60;título&#62;' no título do e-mail. Caso contrário meu cliente de e-mail filtrará diretamente para a pasta de *spam*. O e-mail é <a href="mailto:rsmarinho@cear.ufpb.br">rsmarinho@cear.ufpb.br</a>.
 
 ---
 
