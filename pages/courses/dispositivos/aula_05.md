@@ -132,7 +132,7 @@ O modelo de queda de tensão constante é um bom compromisso entre complexidade 
 Como dito anteriormente, a tensão \(V_O\) desse circuito *só pode ser calculada com a utilização do modelo exponencial* (com o modelo de diodo ideal \(V_O=0\,\forall\,V_{CC}\), com o modelo de queda de tensão constante \(V_O=2.1\,V\,\forall\,V_{CC}\)). Nesse caso:
 
 *Exemplo:*
-Supondo que estamos trabalhando com o diodo de modelo N4002, que tem as seguintes características (**um notebook para jupyter para demonstração desse cálculo está disponível [aqui](https://github.com/rsmarinho/rsmarinho.github.io/blob/master/static/notebook_files/exemplo_iteracao.ipynb)**):
+Supondo que estamos trabalhando com o diodo de modelo N4002, que tem as seguintes características (**um notebook para jupyter para demonstração desse cálculo está disponível [aqui](https://github.com/rsmarinho/notebooks/blob/master/exemplo_iteracao.ipynb)**):
 
 * \(I_s=14.1\times10^{-9}\), e
 * \(\eta=1.984\)
