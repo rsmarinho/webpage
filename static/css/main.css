@@ -100,10 +100,14 @@ input, select, textarea {
 
 	body {
 		background-color: #265319;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #051401 25%, #265319 85%);
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #051401 25%, #265319 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #051401 25%, #265319 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #051401 25%, #265319 85%);
-		background-image: url("images/overlay.png"), linear-gradient(180deg, #051401 25%, #265319 85%);
+		background-image: url("images/overlay.png"), linear-gradient(180deg, #051401 25%, #265319 85%); */
+		background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #222222 25%, #444444 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #222222 25%, #444444 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #222222 25%, #444444 85%);
+		background-image: url("images/overlay.png"), linear-gradient(180deg, #222222 25%, #444444 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2402,7 +2406,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1.25em;
 	}
 
@@ -2412,7 +2416,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1em;
 	}
 

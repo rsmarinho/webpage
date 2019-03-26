@@ -134,3 +134,11 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
     * Modelo equivalente
   2. Região Ativa
     * Modelos Equivalentes AC - (Modelo de pequenos-sinais)
+
+* Aula 11 - Circuitos de polarização para transitores (TBJ)
+[[Nota de aula](/dispositivos/aula_11)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Polarização com tensão Vbe fixa e o efeito da temperatura
+  2. Polarizaçõa com resitência de base e a dispersão do beta
+  3. Polarização com resistror de degeneração de emissor
+  4. Auto polarização
