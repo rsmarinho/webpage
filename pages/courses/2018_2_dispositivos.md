@@ -142,3 +142,21 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
   2. Polarizaçõa com resitência de base e a dispersão do beta
   3. Polarização com resistror de degeneração de emissor
   4. Auto polarização
+
+* Aula 12 - Análise de amplificadores com TBJ: Configuração emissor comum (1/2)
+* Aula 13 - Análise de amplificadores com TBJ: Configuração emissor comum (2/2)
+* Aula 14 - Análise de amplificadores com TBJ: configurações base e coletor comum
+* Aula 15 - Introdução aos Espelhos de Corrente e Amplificadores diferenciais com TBJ
+
+## Unidade 03
+  [[Quiz](/dispositivos/quiz)]
+  [[Exercicios](/dispositivos/exercicios)]
+
+* Aula 16 - MOSFETs: princípio de funcionamento
+* Aula 17 - MOSFETs: Modelo equivalente para pequenos sinais e polarização
+* Aula 18 - Amplificadores com MOSFETs (1/2)
+* Aula 19 - Amplificadores com MOSFETs (2/2)
+* Aula 20 - Resposta em Frequência (1/2)
+* Aula 21 - Resposta em Frequência (2/2)
+* Aula 22 - Introdução aos Circuitos Digitais CMOS: Inversor CMOS
+* Aula 23 -Introdução aos Circuitos Digitais CMOS: Portas lógicas CMOS
