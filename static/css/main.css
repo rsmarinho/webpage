@@ -104,10 +104,10 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #051401 25%, #265319 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #051401 25%, #265319 85%);
 		background-image: url("images/overlay.png"), linear-gradient(180deg, #051401 25%, #265319 85%); */
-		background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #222222 25%, #444444 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #222222 25%, #444444 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #222222 25%, #444444 85%);
-		background-image: url("images/overlay.png"), linear-gradient(180deg, #222222 25%, #444444 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(180deg, #1c1f21 25%, #3b3f42 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(180deg, #1c1f21 25%, #3b3f42 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(180deg, #1c1f21 25%, #3b3f42 85%);
+		background-image: url("images/overlay.png"), linear-gradient(180deg, #1c1f21 25%, #3b3f42 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {

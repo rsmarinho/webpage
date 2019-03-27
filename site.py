@@ -10,6 +10,14 @@ import sys
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
+try:
+    import urlparse
+except ImportError:
+    import urllib.parse as urlparse
+
+from flask import request
+from werkzeug.contrib.atom import AtomFeed
+
 DEBUG = True
 # FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = ['.md']
