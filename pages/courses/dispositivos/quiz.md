@@ -1,5 +1,5 @@
 title: Dispositivos Eletrônicos
-aula: Quiz Asignments
+aula: Quiz Assignments
 menu: courses
 date: 2018.2
 
