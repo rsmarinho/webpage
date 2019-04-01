@@ -144,7 +144,23 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
   4. Auto polarização
 
 * Aula 12 - Análise de amplificadores com TBJ: Configuração emissor comum (1/2)
+[[Nota de aula](/dispositivos/aula_12)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Contexto de amplificação
+  2. Características de um amplificador
+  3. Configuração emissor comum (EC):
+    * Impedãncias de entrada e saída
+    * Ganho de tensão (Av)
+    * Consumo (\*)
+
 * Aula 13 - Análise de amplificadores com TBJ: Configuração emissor comum (2/2)
+[[Nota de aula](/dispositivos/aula_12)]
+<!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
+  1. Relembrando aula (1/2)
+  2. Configuração Emissor comum
+    * Resistor de degeneração (emissor)
+    *  Impacto do efeito Early
+
 * Aula 14 - Análise de amplificadores com TBJ: configurações base e coletor comum
 * Aula 15 - Introdução aos Espelhos de Corrente e Amplificadores diferenciais com TBJ
 
