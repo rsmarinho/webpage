@@ -154,7 +154,7 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
     * Consumo (\*)
 
 * Aula 13 - Análise de amplificadores com TBJ: Configuração emissor comum (2/2)
-[[Nota de aula](/dispositivos/aula_12)]
+[[Nota de aula](/dispositivos/aula_13)]
 <!-- [[Video](https://youtu.be/MK8FGIqITEI)] -->
   1. Relembrando aula (1/2)
   2. Configuração Emissor comum
