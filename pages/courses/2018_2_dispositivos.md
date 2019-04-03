@@ -162,6 +162,13 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
     *  Impacto do efeito Early
 
 * Aula 14 - Análise de amplificadores com TBJ: configurações base e coletor comum
+  1. Configuração base comum
+    * Impedância de Entrada e Saída
+    * Ganho de tensão
+  2. Configuração coletor Comum
+    * Impedância de Entrada e Saída
+    * Ganho de tensão
+
 * Aula 15 - Introdução aos Espelhos de Corrente e Amplificadores diferenciais com TBJ
 
 ## Unidade 03
