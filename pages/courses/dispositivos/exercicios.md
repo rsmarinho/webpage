@@ -66,3 +66,37 @@ Exercícios de fixação
   * 4.16
   * 4.17
   * 4.21
+
+* Aula 11
+  * 5.3 (a,b,c,d)
+  * 5.4 (a,b,c,d)
+  * 5.7 (a,b,c)
+  * 5.13
+  * 5.14
+  * 5.20
+
+* Aula 12
+  * 5.31
+  * 5.34
+  * 5.37
+  * 5.37\* (cont.) - Suponha que a característica do transitor seja \(I_C=I_S\exp(\frac{V_{BE}}{V_T})\). Em que temperatura o transitor deverá operar para os mesmos valores de \(V_{BE}\) e \(I_C\)?.
+  * 5.42
+
+* Aula 13
+  * 5.46 (a,b,c,d,e)
+  * 5.48
+  * 5.49 (c)
+  * 5.52 (a,b,c)
+  * 5.52\* (cont.) - Qual a função dos capacitores \(C_2\) nos itens (b) e (c)?
+
+* Aula 14
+  * 5.56
+  * 5.54
+  * 5.55
+  * 5.71
+
+* Aula 15
+  * 5.63
+  * 5.73
+  * 5.89
+  * 5.90
