@@ -177,9 +177,39 @@ Abaixo eu listo algum material que pode servir de guia para seus estudos. Não f
   [[Exercicios](/dispositivos/exercicios)]
 
 * Aula 16 - MOSFETs: princípio de funcionamento
+  Revisão sobre o BJT
+  1. Introdução aos transistores a efeito de campo
+  2. MOSFETS
+    * Estrutura física
+    * Relação tensão-corrente
+    * Regiões de funcionamento
+    * Efeitos de segunda ordem
+
 * Aula 17 - MOSFETs: Modelo equivalente para pequenos sinais e polarização
+  1. Modelo equivalente para análise de pequenos Sinais (baixa-frequência)
+    * Transcondutância
+    * Resistência de saída
+  2. Circuitos de polarização
+    * Tensão \(V_{GS}\) fixa
+    * Resistor de degeneração de Fonte
+    * Espelho de corrente
+
 * Aula 18 - Amplificadores com MOSFETs (1/2)
+  1. Configuração fonte comum
+    * Ganho, impedâncias de entrada e saída
+    * Degeneração de fonte
+    * Impacto do efeito de modulação de canal
+    * Carga ativa
+
 * Aula 19 - Amplificadores com MOSFETs (2/2)
+  1. Configuração Porta-Comum
+    * Ganho
+    * Impedâncias de entrada e saída
+  2. Configuração Dreno-Comum
+    * Ganho
+    * Impedâncias de entrada e saída
+
+
 * Aula 20 - Resposta em Frequência (1/2)
 * Aula 21 - Resposta em Frequência (2/2)
 * Aula 22 - Introdução aos Circuitos Digitais CMOS: Inversor CMOS
