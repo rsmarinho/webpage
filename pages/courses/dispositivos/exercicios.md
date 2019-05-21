@@ -100,3 +100,38 @@ Exercícios de fixação
   * 5.73
   * 5.89
   * 5.90
+
+## Unidade 03
+* Aula 16
+  * 6.1
+  * 6.6
+  * 6.7
+  * 6.9
+  * 6.13
+  * 6.15
+  * 6.16
+  * 6.20
+  * 6.22
+
+* Aula 17
+  * 6.31
+  * 6.35
+  * 6.36
+  * 6.38
+  * 6.45 (d,e)
+
+* Aula 18 e 19 - Nos exercícios seguintes utilize:
+\(\mu_nC_{ox}=200\mu A/V^2\), \(\mu_pC_{ox}=100\mu A/V^2\), \(|V_{TH}|=0.4V\) (PMOS e NMOS) e \(\lambda=0\).
+  * 7.2
+  * 7.4
+  * 7.5
+  * 7.8
+  * 7.10
+  * 7.12
+  * 7.14
+  * 7.37
+  * 7.45
+  * 7.57
+
+
+  <iframe src="https://ww6pa14lki.execute-api.sa-east-1.amazonaws.com/dev/cmos2" name="myFrame" width=800 height=600></iframe>

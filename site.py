@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask
 
 from flask import render_template
@@ -206,7 +207,7 @@ if __name__ == '__main__':
 		freezer.freeze()
 		print("Done.")
 	else:
-		#app.run(port=5555)
+		# app.run(port=5555)
 		app.jinja_env.auto_reload = True
 		app.config['TEMPLATES_AUTO_RELOAD'] = True
-		app.run(debug=True, use_reloader=True, host='0.0.0.0')
+		app.run(debug=True, use_reloader=False, host='0.0.0.0')

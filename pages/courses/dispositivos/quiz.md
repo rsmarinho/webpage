@@ -22,5 +22,5 @@ Informações sobre as tarefas
 * [Quiz 01](/static/quiz/q1.pdf)
 * [Quiz 02](/static/quiz/q2.pdf)
 * [Quiz 03](/static/quiz/q3.pdf)
-* Quiz 04
+* [Quiz 04](/static/quiz/q4.pdf)
 * Quiz 05

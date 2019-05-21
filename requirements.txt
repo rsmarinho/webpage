@@ -1,0 +1,7 @@
+flask
+flask-markdown
+flask-flatpages
+Frozen-Flask
+Markdown
+python-markdown-math
+mdx_truly_sane_lists
