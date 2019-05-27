@@ -85,15 +85,27 @@ icons = [
 #Courses Definitions
 years = [
     {
+        'year': '2019',
+        'period': '1'
+    },
+    {
         'year': '2018',
         'period': '2'
-    },
-    # {
-    #     'year': '2019',
-    #     'period': '1'
-    # },
+    }
 ]
 classes = [
+    {
+        'year': '2019',
+        'period': '1',
+        'class': 'Dispositivos Eletrônicos',
+        'href': 'dispositivos'
+    },
+    {
+        'year': '2019',
+        'period': '1',
+        'class': 'Estrutura e concepção de Circuitos Integrados',
+        'href': 'estrutura'
+    },
     {
         'year': '2018',
         'period': '2',
