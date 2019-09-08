@@ -34,7 +34,17 @@ O e-mail é <a href="mailto:rsmarinho@cear.ufpb.br">rsmarinho@cear.ufpb.br</a>.
 ### *Provas e trabalhos:*
 
 Você pode encontrar os roteiros com os todos os trabalhos da disciplina [aqui](https://github.com/rsmarinho/ecci_labs). Ou se preferir olhar de um por um olhe abaixo:
+
 * [lab01](https://github.com/rsmarinho/ecci_labs/blob/master/lab01.pdf)
+* [lab02](https://github.com/rsmarinho/ecci_labs/blob/master/lab02.pdf)
+<!-- * [lab03](https://github.com/rsmarinho/ecci_labs/blob/master/lab03.pdf) -->
+<!-- * [lab04](https://github.com/rsmarinho/ecci_labs/blob/master/lab04.pdf) -->
+<!-- * [lab05](https://github.com/rsmarinho/ecci_labs/blob/master/lab05.pdf) -->
+<!-- * [lab06](https://github.com/rsmarinho/ecci_labs/blob/master/lab06.pdf) -->
+<!-- * [lab07](https://github.com/rsmarinho/ecci_labs/blob/master/lab07.pdf) -->
+<!-- * [lab08](https://github.com/rsmarinho/ecci_labs/blob/master/lab08.pdf) -->
+<!-- * [lab09](https://github.com/rsmarinho/ecci_labs/blob/master/lab09.pdf) -->
+<!-- * [lab10](https://github.com/rsmarinho/ecci_labs/blob/master/lab10.pdf) -->
 
 ---
 
