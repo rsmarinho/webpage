@@ -182,6 +182,7 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
 
 * Aula 16 - MOSFETs: princípio de funcionamento
   Revisão sobre o BJT
+  [[Nota de aula](/dispositivos/aula_16)]
   1. Introdução aos transistores a efeito de campo
   2. MOSFETS
     * Estrutura física
@@ -190,6 +191,7 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
     * Efeitos de segunda ordem
 
 * Aula 17 - MOSFETs: Modelo equivalente para pequenos sinais e polarização
+[[Nota de aula](/dispositivos/aula_17)]
   1. Modelo equivalente para análise de pequenos Sinais (baixa-frequência)
     * Transcondutância
     * Resistência de saída
@@ -199,6 +201,7 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
     * Espelho de corrente
 
 * Aula 18 - Amplificadores com MOSFETs (1/2)
+[[Nota de aula](/dispositivos/aula_18)]
   1. Configuração fonte comum
     * Ganho, impedâncias de entrada e saída
     * Degeneração de fonte
@@ -206,6 +209,7 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
     * Carga ativa
 
 * Aula 19 - Amplificadores com MOSFETs (2/2)
+[[Nota de aula](/dispositivos/aula_19)]
   1. Configuração Porta-Comum
     * Ganho
     * Impedâncias de entrada e saída
