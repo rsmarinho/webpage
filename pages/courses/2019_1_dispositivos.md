@@ -219,6 +219,11 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
 
 
 * Aula 20 - Resposta em Frequência (1/2)
+[[Nota de aula](/dispositivos/aula_20)]
+  1. Curva e regra de Bode
+  2. Resposta em frequência amplificadores
+
+
 * Aula 21 - Resposta em Frequência (2/2)
 * Aula 22 - Introdução aos Circuitos Digitais CMOS: Inversor CMOS
 * Aula 23 -Introdução aos Circuitos Digitais CMOS: Portas lógicas CMOS
