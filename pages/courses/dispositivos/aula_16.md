@@ -26,5 +26,5 @@ Notas de aula
 5. [Página 05](/static/pdf/aula16/5.pdf)
 6. [Página 06](/static/pdf/aula16/6.pdf)
 7. [Página 07](/static/pdf/aula16/7.pdf)
-7. [Página 07](/static/pdf/aula16/8.pdf)
-7. [Página 07](/static/pdf/aula16/9.pdf)
+7. [Página 08](/static/pdf/aula16/8.pdf)
+7. [Página 09](/static/pdf/aula16/9.pdf)

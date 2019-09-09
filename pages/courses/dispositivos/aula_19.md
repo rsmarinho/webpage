@@ -24,5 +24,5 @@ Notas de aula
 5. [Página 05](/static/pdf/aula19/5.pdf)
 6. [Página 06](/static/pdf/aula19/6.pdf)
 7. [Página 07](/static/pdf/aula19/7.pdf)
-7. [Página 07](/static/pdf/aula19/8.pdf)
-7. [Página 07](/static/pdf/aula19/9.pdf)
+7. [Página 08](/static/pdf/aula19/8.pdf)
+7. [Página 09](/static/pdf/aula19/9.pdf)
