@@ -225,5 +225,11 @@ Você encontrará mais material de apoio [aqui](https://drive.google.com/open?id
 
 
 * Aula 21 - Resposta em Frequência (2/2)
+[[Nota de aula](/dispositivos/aula_21)]
+  1. Efeito Miller
+  2. Impacto nas impedâncias parasitas
+    * Impedância de E/S
+    * Ganho
+
 * Aula 22 - Introdução aos Circuitos Digitais CMOS: Inversor CMOS
 * Aula 23 -Introdução aos Circuitos Digitais CMOS: Portas lógicas CMOS
