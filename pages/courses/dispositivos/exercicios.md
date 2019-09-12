@@ -133,6 +133,18 @@ Exercícios de fixação
   * 7.45
   * 7.57
 
+* Aula 20 e 21
+  * 11.4
+  * 11.16
+  * 11.9
+  * 11.12
+  * 11.13
+  * 11.14
+  * 11.16
+  * 11.17
+  * 11.38
+  * 11.39
+
 <div class="iframe-container">
 <iframe
   src="https://ww6pa14lki.execute-api.sa-east-1.amazonaws.com/dev/cmos3"
