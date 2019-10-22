@@ -86,6 +86,10 @@ icons = [
 years = [
     {
         'year': '2019',
+        'period': '2'
+    },
+    {
+        'year': '2019',
         'period': '1'
     },
     {
@@ -94,6 +98,18 @@ years = [
     }
 ]
 classes = [
+    {
+        'year': '2019',
+        'period': '2',
+        'class': 'Dispositivos Eletrônicos',
+        'href': 'dispositivos'
+    },
+    {
+        'year': '2019',
+        'period': '2',
+        'class': 'Projeto de Circuitos Integrados',
+        'href': 'projeto'
+    },
     {
         'year': '2019',
         'period': '1',
@@ -195,24 +211,11 @@ def dispositivos():
 		icons=icons,
 		page=page)
 
-# @app.route('/projeto/')
-# def projeto():
-# 	ano = classes[0]['year']
-# 	sem = classes[0]['period']
-# 	content = os.path.join('courses/' + ano + '_' + sem + '_projeto')
-# 	page = pages.get_or_404(content)
-# 	# page = 'courses/' + filename
-# 	return render_template('course_page.html',
-# 		title=title,
-# 		subtitle=subtitle,
-# 		icons=icons,
-# 		page=page)
-
-@app.route('/estrutura/')
-def estrutura():
+@app.route('/projeto/')
+def projeto():
 	ano = classes[0]['year']
 	sem = classes[0]['period']
-	content = os.path.join('courses/' + ano + '_' + sem + '_estrutura')
+	content = os.path.join('courses/' + ano + '_' + sem + '_projeto')
 	page = pages.get_or_404(content)
 	# page = 'courses/' + filename
 	return render_template('course_page.html',
@@ -220,6 +223,19 @@ def estrutura():
 		subtitle=subtitle,
 		icons=icons,
 		page=page)
+
+# @app.route('/estrutura/')
+# def estrutura():
+# 	ano = classes[0]['year']
+# 	sem = classes[0]['period']
+# 	content = os.path.join('courses/' + ano + '_' + sem + '_estrutura')
+# 	page = pages.get_or_404(content)
+# 	# page = 'courses/' + filename
+# 	return render_template('course_page.html',
+# 		title=title,
+# 		subtitle=subtitle,
+# 		icons=icons,
+# 		page=page)
 
 # run the application
 if __name__ == '__main__':

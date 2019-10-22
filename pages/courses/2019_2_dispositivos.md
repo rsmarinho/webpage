@@ -1,12 +1,12 @@
 title: Dispositivos Eletrônicos
 menu: courses
-date: 2019.1
+date: 2019.2
 
 ## Ano 2019
-## Período 1
+## Período 2
 
 ---
-O Calendario letivo para esse semestre ([calendario UFPB](http://www.prg.ufpb.br/prg/codesc/documentos/calendario-academico/academico-2019-1-campi-i-e-iv.pdf/view)) tem início dia 29 de maio de 2019 e término dia 26 de setembro de 2019.
+O Calendario letivo para esse semestre ([calendario UFPB](http://www.prg.ufpb.br/prg/codesc/documentos/calendario-academico/academico-2019-2-campi-i-e-iv.pdf/view)) tem início dia 15 de outubro de 2019 e término dia 01 de abril de 2020. Um recesso acontecerá durante os meses de dezembro e janeiro, como mostrado no calendário.
 
 <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;hl=pt_BR&amp;bgcolor=%23FFFFFF&amp;src=eoc52gqg65oj86hkark8gs8lo0%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FFortaleza" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
 
@@ -40,11 +40,11 @@ O e-mail é <a href="mailto:rsmarinho@cear.ufpb.br">rsmarinho@cear.ufpb.br</a>.
 ### *Livro texto:*
 O principal livro utilizado nessa disciplina é o [Fundamentos de Microeletrônica](https://www.grupogen.com.br/fundamentos-de-microeletronica), outros livros são considerados como material de apoio. Por exemplo:
 
-* [Dispositivos Eletrônicos e Teoria dos Circuitos](https://www.amazon.com.br/Dispositivos-Eletr%C3%B4nicos-Teoria-dos-Circuitos/dp/8564574217/ref=pd_sim_14_5?_encoding=UTF8&pd_rd_i=8564574217&pd_rd_r=97decd31-cc49-11e8-9fea-e722222b4194&pd_rd_w=NXVIW&pd_rd_wg=7GGcH&pf_rd_i=desktop-dp-sims&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=d515db61-e263-47cd-b9d9-b33c1db68903&pf_rd_r=1E70EA5A5BA7793ZFWVA&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=1E70EA5A5BA7793ZFWVA)
 * [Microeletrônica](https://www.amazon.com.br/Microeletr%C3%B4nica-Adel-S-Sedra/dp/8576050226?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=microeletronica+sedra&qid=1539147863&s=STRING%28br-books-storename%29&sr=1-1&ref=sr_1_1)
+* [Dispositivos Eletrônicos e Teoria dos Circuitos](https://www.amazon.com.br/Dispositivos-Eletr%C3%B4nicos-Teoria-dos-Circuitos/dp/8564574217/ref=pd_sim_14_5?_encoding=UTF8&pd_rd_i=8564574217&pd_rd_r=97decd31-cc49-11e8-9fea-e722222b4194&pd_rd_w=NXVIW&pd_rd_wg=7GGcH&pf_rd_i=desktop-dp-sims&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_p=d515db61-e263-47cd-b9d9-b33c1db68903&pf_rd_r=1E70EA5A5BA7793ZFWVA&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=1E70EA5A5BA7793ZFWVA)
 * [Eletrônica](https://www.amazon.com.br/Eletr%C3%B4nica-1-Albert-Malvino/dp/8580555760/ref=pd_lpo_sbs_14_img_0/130-9291838-9191529?_encoding=UTF8&psc=1&refRID=0YRZRHXATWXFTZQXD6QR)
 
-Também é recomendado que o aluno tenha algum conhecimento de programação (de preferência python) e do simulador de circuitos SPICE (ou algum outro simulador de circuitos). Isso por que em algumas situações (exercícios), o teste de resposta (quando você quer saber se acertou sua resposta) deverá ser feita em seu ambiente de estudo, e esses softwares podem ajudá-lo.
+Também é recomendado que o aluno tenha algum conhecimento de programação (de preferência python) e do simulador de circuitos SPICE (ou algum outro simulador de circuitos). Isso por que em algumas situações (exercícios), o teste de resposta (o momento em que você quer saber se acertou sua resposta) deverá ser feito em seu ambiente de estudo, e esses softwares podem ajudá-lo.
 
 Abaixo eu listo algum material que pode servir de guia para seus estudos. Não faça desse material sua única fonte de estudo para disciplina. Estas são notas de aula que ainda estão sendo desenvolvidas e que portanto podem não acompanhar a sequência das aulas.
 
